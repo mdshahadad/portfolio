@@ -3,11 +3,12 @@
 }
 
 .text-stroke {
-    -webkit-text-stroke: 3px white;
+    -webkit-text-stroke: 3px rgb(147, 143, 143);
     color: transparent;
+    opacity: 0.4;
 }
 
 .text-stroke:hover {
-    -webkit-text-fill-color: white;
+    -webkit-text-fill-color: rgb(148, 144, 144);
     -webkit-text-stroke: 0px;
 }
