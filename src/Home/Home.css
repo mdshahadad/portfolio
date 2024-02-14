@@ -2,6 +2,22 @@
     margin: 24px;
 }
 
+.nav-res {
+    list-style: none;
+    background-color: #949090;
+    color: black;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 1.5s;
+}
+
+.nav-res-hidden {
+    list-style: none;
+    background-color: #949090;
+    color: black;
+    transition-duration: 1.5s;
+}
+
+
 .text-stroke {
     -webkit-text-stroke: 3px #949090;
     color: transparent;
@@ -94,7 +110,7 @@
     @keyframes scroll {
         0% {
             opacity: 4;
-            transform: translateY(10px) scale(0.4);
+            transform: translateY(15px) scale(0.4);
         }
 
         10% {
