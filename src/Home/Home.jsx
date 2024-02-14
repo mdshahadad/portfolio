@@ -8,7 +8,7 @@ import MouseScroll from "./MouseScroll/MouseScroll";
 const Home = () => {
     return (
         <div className="bg-black">
-            <Navbar></Navbar>
+            {/* <Navbar></Navbar> */}
             <div className="relative">
                 <Banner></Banner>
                 <BannerText></BannerText>

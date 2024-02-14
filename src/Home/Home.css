@@ -13,6 +13,7 @@
     -webkit-text-stroke: 0px;
 }
 
+/* Mouse Scroll Animation Style */
 .container {
     position: relative;
     display: flex;
@@ -43,7 +44,7 @@
     height: 18px;
     background: #fff;
     margin-left: -9px;
-    top: 15px;
+    top: 10px;
     border-radius: 50%;
     animation: 1.5s scroll cubic-bezier(0.65, -0.55, 0.25, 1.5) infinite;
 }
@@ -62,5 +63,48 @@
     100% {
         opacity: 0;
         transform: translateY(30px) scale(0.5);
+    }
+}
+
+/* Mouse Scroll Animation Style for Phone Responsive */
+
+@media screen and (max-width: 425px) {
+    .bannerText {
+        /* font-size: 0px; */
+    }
+
+    .text-stroke {
+        -webkit-text-fill-color: #949090;
+        opacity: 0.4;
+    }
+
+    .container {
+        left: -16px;
+    }
+
+    .mouse-scroll {
+        width: 30px;
+        height: 50px;
+    }
+
+    .mouse-scroll::before {
+        top: 5px;
+    }
+
+    @keyframes scroll {
+        0% {
+            opacity: 4;
+            transform: translateY(10px) scale(0.4);
+        }
+
+        10% {
+            opacity: 1;
+            transform: scale(0.5);
+        }
+
+        100% {
+            opacity: 0;
+            transform: translateY(10px) scale(0.5);
+        }
     }
 }

@@ -4,7 +4,7 @@ import '../Home.css'
 
 const Navbar = () => {
     return (
-        <div className="flex justify-between max-w-7xl mx-auto items-center pt-4">
+        <div className="flex justify-between max-w-7xl mx-auto items-center py-2">
             <h2 className="text-white opacity-75 font-bold text-4xl">shahadad.</h2>
             <div className="text-white opacity-75 text-center">
                 <NavLink className="nav-list">Home</NavLink>
