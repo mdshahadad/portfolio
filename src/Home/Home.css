@@ -1,0 +1,13 @@
+.nav-list {
+    margin: 24px;
+}
+
+.text-stroke {
+    -webkit-text-stroke: 3px white;
+    color: transparent;
+}
+
+.text-stroke:hover {
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 0px;
+}
