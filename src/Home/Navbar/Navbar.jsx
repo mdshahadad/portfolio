@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { FaPaperPlane } from "react-icons/fa";
 import '../Home.css'
 
 const Navbar = () => {
@@ -12,7 +13,7 @@ const Navbar = () => {
                 <NavLink className="nav-list">Service</NavLink>
                 <NavLink className="nav-list">Contact</NavLink>
             </div>
-            <button className="bg-white opacity-60 px-8 py-2 rounded-lg font-medium">Hello</button>
+            <button className="bg-white opacity-60 px-8 py-3 rounded-lg font-medium flex items-center text-lg">Hello <FaPaperPlane className="ml-2"></FaPaperPlane></button>
         </div>
     );
 };
