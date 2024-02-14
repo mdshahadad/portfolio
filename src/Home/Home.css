@@ -9,6 +9,6 @@
 }
 
 .text-stroke:hover {
-    -webkit-text-fill-color: rgb(148, 144, 144);
+    -webkit-text-fill-color: #949090;
     -webkit-text-stroke: 0px;
 }
