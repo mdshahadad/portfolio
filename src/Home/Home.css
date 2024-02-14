@@ -4,7 +4,7 @@
 
 .nav-res {
     list-style: none;
-    background-color: #949090;
+    background-color: white;
     color: black;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 1.5s;
