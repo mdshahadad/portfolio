@@ -10,7 +10,7 @@ const Navbar = ({ showMenu, setShowMenu }) => {
     return (
         <div className="md:flex justify-between items-center max-w-7xl lg:mx-auto py-1">
 
-            <h2 className="text-white opacity-75 font-bold text-4xl text-center mb-4 md:mb-0">shahadad.</h2>
+            <h2 className="text-white opacity-75 font-bold text-3xl md:text-4xl text-center mb-4 md:mb-0 mt-1 md:mt-0">shahadad.</h2>
 
             <div className="md:flex md:items-center">
 
@@ -42,7 +42,7 @@ const Navbar = ({ showMenu, setShowMenu }) => {
                         }
                     </div>
 
-                    <button className="bg-white opacity-75 px-8 py-3 rounded-lg font-medium flex items-center text-lg">Hello <FaPaperPlane className="ml-2"></FaPaperPlane></button>
+                    <button className="bg-white opacity-75 px-6 py-2 md:px-8 md:py-3 rounded-lg font-medium flex items-center text-lg">Hello <FaPaperPlane className="ml-2"></FaPaperPlane></button>
                 </div>
             </div>
         </div>
