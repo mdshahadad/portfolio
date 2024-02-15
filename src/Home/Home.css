@@ -102,6 +102,17 @@
     position: absolute;
 }
 
+
+/* My Expertise sections styles */
+.skills-style p {
+    background-color: black;
+    opacity: 90%;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 8px;
+}
+
+
 /* Mouse Scroll Animation Style for Phone Responsive */
 
 @media screen and (max-width: 320px) {
