@@ -4,14 +4,17 @@ import Banner from "./Banner/Banner";
 import BannerText from "./Banner/BannerText";
 import SocialIcons from "./SocialIcons/SocialIcons";
 import MouseScroll from "./MouseScroll/MouseScroll";
+import { useState } from "react";
 
 const Home = () => {
+    const [showMenu, setShowMenu] = useState(false);
+    console.log(showMenu);
     return (
         <div className="bg-black">
-            <Navbar></Navbar>
             <div className="relative">
-                <Banner></Banner>
-                <BannerText></BannerText>
+                <Navbar showMenu={showMenu} setShowMenu={setShowMenu}></Navbar>
+                <Banner showMenu={showMenu}></Banner>
+                <BannerText showMenu={showMenu}></BannerText>
                 {/* <SocialIcons></SocialIcons>
                 <MouseScroll></MouseScroll> */}
             </div>

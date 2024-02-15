@@ -3,11 +3,9 @@ import { FaPaperPlane } from "react-icons/fa";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { RxCross2 } from "react-icons/rx";
 import '../Home.css'
-import { useState } from "react";
+// import { useState } from "react";
 
-const Navbar = () => {
-    const [showMenu, setShowMenu] = useState(false);
-    console.log(showMenu);
+const Navbar = ({ showMenu, setShowMenu }) => {
 
     return (
         <div className="md:flex justify-between items-center max-w-7xl lg:mx-auto py-1">
@@ -16,8 +14,10 @@ const Navbar = () => {
 
             <div className="md:flex md:items-center">
 
-                <div className={`text-white opacity-75 text-center md:mr-24 lg:mr-60`}>
-                    <ul className={`md:flex nav-list absolute md:relative top-[116px] md:top-0 bg-white md:bg-transparent text-black md:text-white w-full 
+                <div className={`text-white opacity-75 text-center
+                md:mr-24 lg:mr-60`}>
+                    <ul className={`md:flex nav-list absolute md:relative top-[116px] md:top-0 bg-white text-black md:bg-transparent
+                     md:text-white w-full
                     ${!showMenu ?
                             "hidden"
                             :

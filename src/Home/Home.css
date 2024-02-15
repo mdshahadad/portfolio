@@ -94,21 +94,31 @@
 
 @media screen and (max-width: 320px) {
     .bannerText {
-        top: 128px;
+        top: 248px;
         font-size: 37px;
+    }
+
+    .text-stroke {
+        -webkit-text-fill-color: #949090;
+        opacity: 0.4;
     }
 }
 
 @media screen and (min-width: 321px) and (max-width: 376px) {
     .bannerText {
-        top: 150px;
+        top: 270px;
         font-size: 43px;
+    }
+
+    .text-stroke {
+        -webkit-text-fill-color: #949090;
+        opacity: 0.4;
     }
 }
 
 @media screen and (min-width: 377px) and (max-width: 425px) {
     .bannerText {
-        top: 166px;
+        top: 295px;
         font-size: 48px;
     }
 
