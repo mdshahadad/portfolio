@@ -10,7 +10,7 @@ const SocialIcons = () => {
             className="fixed bottom-0 text-[#949090] md:text-[#bfbfbf] -right-14 md:-right-5 z-50">
 
             <Link to={`https://www.linkedin.com/in/shahadad/`}>
-                <IoLogoLinkedin className="text-4xl hover:text-white"></IoLogoLinkedin>
+                <IoLogoLinkedin className="text-4xl hover:text-white z-50"></IoLogoLinkedin>
             </Link>
 
             <Link to={`https://github.com/mdshahadad`}>

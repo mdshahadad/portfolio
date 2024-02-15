@@ -46,7 +46,7 @@ const Navbar = ({ showMenu, setShowMenu }) => {
                     </div>
 
                     <button onClick={handleHello}
-                        className="bg-white opacity-75 hover:opacity-75 px-6 py-2 md:px-8 md:py-3 rounded-lg font-medium flex items-center text-lg"
+                        className="md:bg-white bg-transparent border-2 md:border-0 text-white md:text-black opacity-75 hover:opacity-75 px-6 py-2 md:px-8 md:py-3 rounded-lg font-medium flex items-center text-lg"
                     >Hello <FaPaperPlane className="ml-2"></FaPaperPlane></button>
                 </div>
             </div>

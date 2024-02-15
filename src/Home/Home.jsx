@@ -12,7 +12,7 @@ const Home = () => {
     console.log(showMenu);
     return (
         <div className="bg-black relative">
-            <div className="relative z-10">
+            <div className="relative">
                 <Navbar showMenu={showMenu} setShowMenu={setShowMenu}></Navbar>
                 <Banner showMenu={showMenu}></Banner>
                 <BannerText showMenu={showMenu}></BannerText>
@@ -23,7 +23,7 @@ const Home = () => {
                     </>
                 }
             </div>
-            <div className="z-50">
+            <div className="">
                 <AboutMe></AboutMe>
             </div>
         </div>
