@@ -17,7 +17,12 @@ const Navbar = () => {
             <div className="md:flex md:items-center">
 
                 <div className={`text-white opacity-75 text-center md:mr-24 lg:mr-60`}>
-                    <ul className={`md:flex nav-list absolute md:relative top-[116px] md:top-0 bg-white md:bg-transparent text-black md:text-white w-full
+                    <ul className={`md:flex nav-list absolute md:relative top-[116px] md:top-0 bg-white md:bg-transparent text-black md:text-white w-full 
+                    ${!showMenu ?
+                            "hidden"
+                            :
+                            ""
+                        }
                             `}>
                         <li><NavLink>Home</NavLink></li>
                         <li><NavLink>About</NavLink></li>
@@ -28,8 +33,8 @@ const Navbar = () => {
                 </div>
 
                 {/* ----------- Responsive Style ----------- */}
-                <div className="flex  justify-between mx-2 md:mx-0">
-                    <div className="text-white text-5xl md:hidden">
+                <div className="flex  justify-between mx-3 md:mx-0">
+                    <div className="text-white text-5xl md:hidden -ml-2">
                         {!showMenu ?
                             <HiMenuAlt2 onClick={() => setShowMenu(true)}></HiMenuAlt2>
                             :
