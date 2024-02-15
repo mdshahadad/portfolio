@@ -7,34 +7,42 @@ import { useState } from "react";
 
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);
-    console.log(showMenu)
+    console.log(showMenu);
+
     return (
-        <div className="block md:flex md:justify-between max-w-7xl md:mx-auto items-center py-2 relative overflow-x-visible">
+        <div className="md:flex justify-between items-center max-w-7xl lg:mx-auto py-1">
+
             <h2 className="text-white opacity-75 font-bold text-4xl text-center mb-4 md:mb-0">shahadad.</h2>
 
-            <div className={`text-white opacity-75 text-center 
-            ${showMenu == true ?
-                    "nav-res absolute -left-2 top-[105px] rounded-r-lg"
-                    :
-                    "absolute nav-res-hidden -left-[130px] top-[105px] rounded-r-lg "}
-            md:block md:top-0`}>
-                <li><NavLink className="nav-list">Home</NavLink></li>
-                <li><NavLink className="nav-list">About</NavLink></li>
-                <li><NavLink className="nav-list">Projects</NavLink></li>
-                <li><NavLink className="nav-list">Service</NavLink></li>
-                <li><NavLink className="nav-list">Contact</NavLink></li>
-            </div>
+            <div className="flex items-center">
 
-            <div className="flex justify-between mx-2">
-                <div className="text-white text-5xl md:hidden">
-                    {
-                        !showMenu ?
+                <div className={`text-white opacity-75 text-center md:mr-24 lg:mr-60`}>
+                    <ul className={`md:flex nav-list absolute md:relative top-[116px] md:top-0 bg-white md:bg-transparent text-black md:text-white px-40 md:px-0 
+                    ${!showMenu ?
+                            "hidden"
+                            :
+                            ""}
+                            `}>
+                        <li><NavLink>Home</NavLink></li>
+                        <li><NavLink>About</NavLink></li>
+                        <li><NavLink>Projects</NavLink></li>
+                        <li><NavLink>Service</NavLink></li>
+                        <li><NavLink>Contact</NavLink></li>
+                    </ul>
+                </div>
+
+                {/* ----------- Responsive Style ----------- */}
+                <div className="flex justify-between mx-2 md:mx-0">
+                    <div className="text-white text-5xl md:hidden">
+                        {!showMenu ?
                             <HiMenuAlt2 onClick={() => setShowMenu(true)}></HiMenuAlt2>
                             :
                             <RxCross2 onClick={() => setShowMenu(false)}></RxCross2>
-                    }
+                        }
+                    </div>
+
+                    <button className="bg-white opacity-75 px-8 py-3 rounded-lg font-medium flex items-center text-lg ml-56 md:ml-0">Hello <FaPaperPlane className="ml-2"></FaPaperPlane></button>
                 </div>
-                <button className="bg-white opacity-75 px-8 py-3 rounded-lg font-medium flex items-center text-lg">Hello <FaPaperPlane className="ml-2"></FaPaperPlane></button>
             </div>
         </div>
     );

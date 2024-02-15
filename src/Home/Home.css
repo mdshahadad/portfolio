@@ -1,4 +1,4 @@
-.nav-list {
+.nav-list li {
     margin: 24px;
 }
 
@@ -12,9 +12,13 @@
 
 .nav-res-hidden {
     list-style: none;
-    background-color: #949090;
+    background-color: black;
     color: black;
     transition-duration: 1.5s;
+}
+
+.nav-style-md {
+    display: flex;
 }
 
 
