@@ -14,14 +14,10 @@ const Navbar = () => {
 
             <h2 className="text-white opacity-75 font-bold text-4xl text-center mb-4 md:mb-0">shahadad.</h2>
 
-            <div className="flex items-center">
+            <div className="md:flex md:items-center">
 
                 <div className={`text-white opacity-75 text-center md:mr-24 lg:mr-60`}>
-                    <ul className={`md:flex nav-list absolute md:relative top-[116px] md:top-0 bg-white md:bg-transparent text-black md:text-white px-40 md:px-0 
-                    ${!showMenu ?
-                            "hidden"
-                            :
-                            ""}
+                    <ul className={`md:flex nav-list absolute md:relative top-[116px] md:top-0 bg-white md:bg-transparent text-black md:text-white w-full
                             `}>
                         <li><NavLink>Home</NavLink></li>
                         <li><NavLink>About</NavLink></li>
@@ -32,7 +28,7 @@ const Navbar = () => {
                 </div>
 
                 {/* ----------- Responsive Style ----------- */}
-                <div className="flex justify-between mx-2 md:mx-0">
+                <div className="flex  justify-between mx-2 md:mx-0">
                     <div className="text-white text-5xl md:hidden">
                         {!showMenu ?
                             <HiMenuAlt2 onClick={() => setShowMenu(true)}></HiMenuAlt2>
@@ -41,7 +37,7 @@ const Navbar = () => {
                         }
                     </div>
 
-                    <button className="bg-white opacity-75 px-8 py-3 rounded-lg font-medium flex items-center text-lg ml-56 md:ml-0">Hello <FaPaperPlane className="ml-2"></FaPaperPlane></button>
+                    <button className="bg-white opacity-75 px-8 py-3 rounded-lg font-medium flex items-center text-lg">Hello <FaPaperPlane className="ml-2"></FaPaperPlane></button>
                 </div>
             </div>
         </div>
