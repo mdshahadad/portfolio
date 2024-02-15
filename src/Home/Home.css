@@ -86,12 +86,31 @@
     }
 }
 
+.bannerText {
+    position: absolute;
+}
+
 /* Mouse Scroll Animation Style for Phone Responsive */
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
     .bannerText {
-        /* font-size: 0px; */
+        top: 128px;
+        font-size: 37px;
     }
+}
+
+@media screen and (min-width: 321px ) and (max-width: 376px) {
+    .bannerText {
+        top: 150px;
+        font-size: 43px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    /* .bannerText {
+        font-size: 0px;
+    } */
 
     .text-stroke {
         -webkit-text-fill-color: #949090;
