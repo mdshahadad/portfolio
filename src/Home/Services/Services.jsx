@@ -7,7 +7,7 @@ const Services = () => {
             <div className="relative">
                 <ServicesTitle></ServicesTitle>
             </div>
-            <h3 className="text-white opacity-65 font-medium text-3xl text-center mt-60">Choose which service you want</h3>
+            <h3 className="text-white opacity-65 font-medium text-3xl text-center mt-60">Choose services you want</h3>
             <ServicesCard></ServicesCard>
         </div>
     );
