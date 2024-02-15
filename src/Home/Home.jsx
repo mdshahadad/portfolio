@@ -10,9 +10,9 @@ const Home = () => {
         <div className="bg-black">
             <Navbar></Navbar>
             <div className="relative">
-                {/* <Banner></Banner>
+                <Banner></Banner>
                 <BannerText></BannerText>
-                <SocialIcons></SocialIcons>
+                {/* <SocialIcons></SocialIcons>
                 <MouseScroll></MouseScroll> */}
             </div>
         </div>
