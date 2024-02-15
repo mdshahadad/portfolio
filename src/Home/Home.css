@@ -40,13 +40,14 @@
     align-items: center;
     justify-content: center;
     left: 150px;
+    bottom: 8px;
 }
 
 .mouse-scroll,
 .mouse-scroll::before {
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-5%);
 }
 
 .mouse-scroll {
@@ -140,7 +141,7 @@
         top: 5px;
     }
 
-    @keyframes scroll {
+    /* @keyframes scroll {
         0% {
             opacity: 4;
             transform: translateY(15px) scale(0.4);
@@ -155,5 +156,5 @@
             opacity: 0;
             transform: translateY(10px) scale(0.5);
         }
-    }
+    } */
 }

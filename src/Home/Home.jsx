@@ -15,8 +15,12 @@ const Home = () => {
                 <Navbar showMenu={showMenu} setShowMenu={setShowMenu}></Navbar>
                 <Banner showMenu={showMenu}></Banner>
                 <BannerText showMenu={showMenu}></BannerText>
-                {/* <SocialIcons></SocialIcons>
-                <MouseScroll></MouseScroll> */}
+                {!showMenu &&
+                    <>
+                        <SocialIcons></SocialIcons>
+                        <MouseScroll></MouseScroll>
+                    </>
+                }
             </div>
         </div>
     );
