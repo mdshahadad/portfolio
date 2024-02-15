@@ -6,6 +6,9 @@ import '../Home.css'
 // import { useState } from "react";
 
 const Navbar = ({ showMenu, setShowMenu }) => {
+    const handleHello = () => {
+        console.log('Cliked')
+    }
 
     return (
         <div className="md:flex justify-between items-center max-w-7xl lg:mx-auto py-1">
@@ -33,7 +36,7 @@ const Navbar = ({ showMenu, setShowMenu }) => {
                 </div>
 
                 {/* ----------- Responsive Style ----------- */}
-                <div className="flex  justify-between mx-3 md:mx-0">
+                <div className="flex justify-between mx-3 md:mx-0">
                     <div className="text-white text-5xl md:hidden -ml-2">
                         {!showMenu ?
                             <HiMenuAlt2 onClick={() => setShowMenu(true)}></HiMenuAlt2>
@@ -42,7 +45,9 @@ const Navbar = ({ showMenu, setShowMenu }) => {
                         }
                     </div>
 
-                    <button className="bg-white opacity-75 px-6 py-2 md:px-8 md:py-3 rounded-lg font-medium flex items-center text-lg">Hello <FaPaperPlane className="ml-2"></FaPaperPlane></button>
+                    <button onClick={handleHello}
+                        className="bg-white opacity-75 hover:opacity-75 px-6 py-2 md:px-8 md:py-3 rounded-lg font-medium flex items-center text-lg"
+                    >Hello <FaPaperPlane className="ml-2"></FaPaperPlane></button>
                 </div>
             </div>
         </div>
