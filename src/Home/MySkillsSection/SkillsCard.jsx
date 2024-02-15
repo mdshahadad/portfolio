@@ -13,7 +13,7 @@ const SkillsCard = () => {
                 className="">
                 <div
                     className="bg-white opacity-75
-             text-black rounded-xl px-16 py-16 uppercase">
+             text-black rounded-xl px-16 py-16 uppercase   hover:opacity-100 hover:scale-105 hover:transition-all">
                     <div>
                         <h3 className="text-center text-2xl font-semibold mb-8">Front End</h3>
                     </div>
@@ -38,7 +38,7 @@ const SkillsCard = () => {
                 className="">
                 <div
                     className="bg-white opacity-75
-             text-black rounded-xl px-[92.5px] py-24 uppercase">
+             text-black rounded-xl px-[92.5px] py-24 uppercase   hover:opacity-100 hover:scale-105 hover:transition-all">
                     <div>
                         <h3 className="text-center text-2xl font-semibold mb-8">back End</h3>
                     </div>

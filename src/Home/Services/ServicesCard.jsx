@@ -43,7 +43,7 @@ const ServicesCard = () => {
 
                 <div className="flex justify-center">
                     <div className="">
-                        <div className="mb-10 bg-white hover:opacity-100 opacity-75 text-black px-16 py-12 rounded-xl w-full hover:scale-110 hover:transition-all">
+                        <div className="mb-10 bg-white opacity-75 text-black px-16 py-12 rounded-xl w-full  hover:opacity-100 hover:scale-110 hover:transition-all">
                             <h3
                                 className="text-2xl font-medium">
                                 <TbSettingsCode
