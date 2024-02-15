@@ -33,6 +33,17 @@
     -webkit-text-stroke: 0px;
 }
 
+.text-strokeTitle {
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+    opacity: 0.4;
+}
+
+.text-strokeTitle:hover {
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke: 0px;
+}
+
 /* Mouse Scroll Animation Style */
 .container {
     position: relative;

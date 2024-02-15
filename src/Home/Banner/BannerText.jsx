@@ -9,7 +9,7 @@ const BannerText = ({ showMenu }) => {
                     data-aos="fade-down"
                     data-aos-duration="3000" data-aos-easing="linear"
                     data-aos-delay="500"
-                    className="font-extrabold md:text-[110px] lg:text-[170px] md:top-48 lg:top-36 lg:left-[240px] text-stroke z-10 hover:z-30 bannerText"
+                    className="font-extrabold md:text-[110px] lg:text-[180px] md:top-48 lg:top-44 text-stroke z-10 hover:z-30 bannerText"
                 > WEB DEVELOPER
                 </h1>
             }
