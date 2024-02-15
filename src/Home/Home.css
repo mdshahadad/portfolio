@@ -108,16 +108,9 @@
 
 @media screen and (min-width: 377px) and (max-width: 425px) {
     .bannerText {
-        top: 170px;
-        font-size: 49px;
+        top: 166px;
+        font-size: 48px;
     }
-}
-
-
-@media screen and (max-width: 425px) {
-    /* .bannerText {
-        font-size: 0px;
-    } */
 
     .text-stroke {
         -webkit-text-fill-color: #949090;
