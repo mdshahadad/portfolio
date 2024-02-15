@@ -2,12 +2,12 @@ import { HiDocumentArrowDown } from "react-icons/hi2";
 
 const AboutMeText = () => {
     return (
-        <div className="">
+        <div className="z-20 md:hover:z-10">
             <div data-aos="fade-left"
                 data-aos-duration="2000"
                 data-aos-delay="900"
                 data-aos-easing="linear"
-                className="z-20 md:hover:z-10 absolute top-20 md:bottom-0 right-0 md:right-10">
+                className="z-20 md:hover:z-10 absolute top-20 md:bottom-0 right-0 md:right-44">
                 <img className="opacity-25" src="https://i.postimg.cc/c4pMKW73/IMG-2118-1.png" alt="" />
             </div>
             <div
@@ -15,7 +15,7 @@ const AboutMeText = () => {
                 data-aos-duration="2000"
                 data-aos-delay="900"
                 data-aos-easing="linear"
-                className="absolute bottom-10 md:bottom-56 w-3/4 md:w-1/3 font-medium text-xl left-10 md:left-[420px] z-20">
+                className="absolute bottom-10 md:bottom-56 w-3/4 md:w-1/3 font-medium text-xl left-8 md:left-[420px] z-20">
                 <div className="space-y-5 hover:text-white hover:opacity-70 md:text-[#949090] text-white opacity-75 md:opacity-85 ">
                     <h3><strong className="text-2xl md:text-4xl">Assalamualaikum,</strong> Everyone.</h3>
                     <p className="md:leading-8 leading-6">I am Md Shahadad Hossain, based in Bangladesh. I am student of Computer Science and Engineering. I am proficient at front end web technologies. I have been working for many months. I love building different kind of websites & love to doing work.</p>
