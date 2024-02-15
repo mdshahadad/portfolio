@@ -110,6 +110,9 @@
     color: white;
     padding: 8px 10px;
     border-radius: 8px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 
 

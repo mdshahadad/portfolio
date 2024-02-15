@@ -7,6 +7,7 @@ import MouseScroll from "./MouseScroll/MouseScroll";
 import { useState } from "react";
 import AboutMe from "./AboutMeSection/AboutMe";
 import Skills from "./MySkillsSection/Skills";
+import Services from "./Services/Services";
 
 const Home = () => {
     const [showMenu, setShowMenu] = useState(false);
@@ -30,6 +31,7 @@ const Home = () => {
                     <>
                         <AboutMe></AboutMe>
                         <Skills></Skills>
+                        <Services></Services>
                     </>
                 }
             </div>
