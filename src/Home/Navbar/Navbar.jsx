@@ -6,14 +6,15 @@ import '../Home.css'
 // import { useState } from "react";
 
 const Navbar = ({ showMenu, setShowMenu }) => {
-    const handleHello = () => {
-        console.log('Cliked')
+    const reloadPage = () => {
+        window.location.reload()
     }
 
     return (
         <div className="md:flex justify-between items-center max-w-7xl lg:mx-auto py-1">
 
-            <h2 className="text-white opacity-75 font-bold text-3xl md:text-4xl text-center mb-4 md:mb-0 mt-1 md:mt-0">shahadad.</h2>
+            <h2 onClick={reloadPage}
+                className="text-white opacity-75 font-bold text-3xl md:text-4xl text-center mb-4 md:mb-0 mt-1 md:mt-0 cursor-pointer">shahadad.</h2>
 
             <div className="md:flex md:items-center">
 
@@ -45,9 +46,9 @@ const Navbar = ({ showMenu, setShowMenu }) => {
                         }
                     </div>
 
-                    <button onClick={handleHello}
-                        className="md:bg-white bg-transparent border-2 md:border-0 text-white md:text-black opacity-75 hover:opacity-75 px-6 py-2 md:px-8 md:py-3 rounded-lg font-medium flex items-center text-lg"
-                    >Hello <FaPaperPlane className="ml-2"></FaPaperPlane></button>
+                    <button
+                        className="md:bg-white bg-transparent border-2 md:border-0 text-white md:text-black opacity-75 hover:opacity-100 px-6 py-2 md:px-8 md:py-3 rounded-lg font-medium flex items-center text-xl hover:scale-110 hover:outline-dotted hover:bg-transparent hover:text-white transition-all"
+                    >Hello <FaPaperPlane className="ml-2 text-2xl"></FaPaperPlane></button>
                 </div>
             </div>
         </div>

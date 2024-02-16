@@ -27,7 +27,7 @@ const ContactForm = () => {
                         <div className="w-1/3 ml-10 mb-1">
                             <div className="">
                                 <p className="uppercase text-base font-medium text-white opacity-75 leading-7">if you face any problem with your website, or you want to make a fresh brand new website for you or your business just write in details and send the messages. i will reach you by your email you sended.</p>
-                                <button className="uppercase flex justify-center px-12 bg-white  opacity-75 py-6 text-black font-medium items-center rounded-xl text-xl hover:opacity-100 hover:scale-110 hover:bg-transparent hover:border-2 hover:text-white transition-all mt-[52px]">send message <FaPaperPlane className="ml-2 text-2xl" />
+                                <button className="uppercase flex justify-center px-12 bg-white  opacity-75 py-6 text-black font-medium items-center rounded-xl text-xl hover:opacity-100 hover:scale-110 hover:bg-transparent hover:outline-dotted hover:text-white transition-all mt-[52px]">send message <FaPaperPlane className="ml-2 text-2xl" />
                                 </button>
                             </div>
                         </div>
