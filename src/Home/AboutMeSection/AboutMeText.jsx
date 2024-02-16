@@ -4,16 +4,16 @@ const AboutMeText = () => {
     return (
         <div className="">
             <div data-aos="fade-left"
-                data-aos-duration="1500"
-                data-aos-delay="200"
+                data-aos-duration="1000"
+                // data-aos-delay="200"
                 data-aos-easing="linear"
                 className="z-20 md:hover:z-10 absolute top-20 md:top-28 right-0 md:right-60">
                 <img className="opacity-25" src="https://i.postimg.cc/c4pMKW73/IMG-2118-1.png" alt="" />
             </div>
             <div
                 data-aos="fade-right"
-                data-aos-duration="1500"
-                data-aos-delay="200"
+                data-aos-duration="1000"
+                // data-aos-delay="200"
                 data-aos-easing="linear"
                 className="absolute bottom-10 md:bottom-56 w-3/4 md:w-1/3 font-medium text-xl left-8 md:left-[350px] z-20">
                 <div className="space-y-5 hover:text-white hover:opacity-70 md:text-[#949090] text-white opacity-75 md:opacity-85 ">

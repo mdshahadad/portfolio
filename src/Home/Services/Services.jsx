@@ -3,7 +3,7 @@ import ServicesTitle from "./ServicesTitle";
 
 const Services = () => {
     return (
-        <div className="bg-black">
+        <div className="bg-black mb-20">
             <div className="relative">
                 <ServicesTitle></ServicesTitle>
             </div>
