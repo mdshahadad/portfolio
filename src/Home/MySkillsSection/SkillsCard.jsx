@@ -3,14 +3,14 @@ import { BsFillCheckCircleFill } from "react-icons/bs";
 
 const SkillsCard = () => {
     return (
-        <div className="text-white flex justify-between max-w-5xl mx-auto mt-80">
+        <div className="text-white flex justify-between max-w-5xl mx-auto mt-20">
             <div
 
                 data-aos="fade-right"
                 data-aos-offset="300"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-sine"
-                className="">
+                className="cursor-pointer">
                 <div
                     className="bg-white opacity-75
              text-black rounded-xl px-16 py-16 uppercase   hover:opacity-100 hover:scale-105 hover:transition-all">
@@ -35,7 +35,7 @@ const SkillsCard = () => {
                 data-aos-offset="300"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-sine"
-                className="">
+                className="cursor-pointer">
                 <div
                     className="bg-white opacity-75
              text-black rounded-xl px-[92.5px] py-24 uppercase   hover:opacity-100 hover:scale-105 hover:transition-all">

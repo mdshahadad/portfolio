@@ -8,6 +8,7 @@ import { useState } from "react";
 import AboutMe from "./AboutMeSection/AboutMe";
 import Skills from "./MySkillsSection/Skills";
 import Services from "./Services/Services";
+import Contact from "./ContactSection/Contact";
 
 const Home = () => {
     const [showMenu, setShowMenu] = useState(false);
@@ -32,6 +33,7 @@ const Home = () => {
                         <AboutMe></AboutMe>
                         <Skills></Skills>
                         <Services></Services>
+                        <Contact></Contact>
                     </>
                 }
             </div>
