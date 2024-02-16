@@ -81,6 +81,21 @@
     animation: 1.5s scroll cubic-bezier(0.65, -0.55, 0.25, 1.5) infinite;
 }
 
+.icon-card:hover .icon-color {
+    color: #0A6BCA;
+}
+
+.icon-card:hover .whatsapp {
+    color: #2bb741;
+}
+.icon-card:hover .telegram {
+    color: #2a9cd4;
+}
+.icon-card:hover .email {
+    color: #ea3f41;
+}
+
+
 @keyframes scroll {
     0% {
         opacity: 4;

@@ -9,6 +9,7 @@ import AboutMe from "./AboutMeSection/AboutMe";
 import Skills from "./MySkillsSection/Skills";
 import Services from "./Services/Services";
 import Contact from "./ContactSection/Contact";
+import Footer from "./Footer.jsx/Footer";
 
 const Home = () => {
     const [showMenu, setShowMenu] = useState(false);
@@ -34,6 +35,7 @@ const Home = () => {
                         <Skills></Skills>
                         <Services></Services>
                         <Contact></Contact>
+                        <Footer></Footer>
                     </>
                 }
             </div>
