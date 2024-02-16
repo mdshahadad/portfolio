@@ -7,7 +7,7 @@ const Skills = () => {
             <div className="relative">
                 <SkillsTitle></SkillsTitle>
             </div>
-            <h3 className="text-white opacity-65 font-medium text-3xl text-center mt-72 uppercase">which skills i have</h3>
+            <h3 className="text-white opacity-65 font-medium text-3xl text-center mt-72 uppercase hover:opacity-100">which skills i have</h3>
             <SkillsCard></SkillsCard>
         </div>
     );

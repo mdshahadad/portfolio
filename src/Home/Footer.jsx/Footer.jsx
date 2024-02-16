@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="w-full bg-white opacity-75 text-center py-20 mt-12">
             <div className="max-w-4xl mx-auto">
                 <div className="mb-16">
-                    <h2 className="opacity-75 font-bold text-4xl md:text-7xl text-center mb-8 md:mb-2 mt-1 md:mt-0">shahadad.</h2>
+                    <h2 className="opacity-75 font-bold text-4xl md:text-7xl text-center mb-8 md:mb-2 mt-1 md:mt-0 hover:opacity-100">shahadad.</h2>
                     <p className="font-medium text-xl up">A Junior Web Developer In Town</p>
                 </div>
                 <div className="flex justify-between mt-5">
@@ -40,19 +40,19 @@ const Footer = () => {
                     <div>
                         <div className="flex">
                             <div>
-                                <IoLogoLinkedin className="text-5xl mr-3 cursor-pointer" />
+                                <IoLogoLinkedin className="text-5xl mr-3 cursor-pointer hover:text-[#0A6BCA]" />
                             </div>
                             <div>
                                 <IoLogoGithub className="text-5xl mr-3 cursor-pointer" />
                             </div>
                             <div>
-                                <FaTelegram className="text-5xl mr-3 cursor-pointer" />
+                                <FaTelegram className="text-5xl mr-3 cursor-pointer hover:text-[#2a9cd4]" />
                             </div>
                             <div>
-                                <FaWhatsapp className="text-5xl mr-3 cursor-pointer" />
+                                <FaWhatsapp className="text-5xl mr-3 cursor-pointer hover:text-[#2bb741]" />
                             </div>
                             <div>
-                                <TbMailShare className="text-5xl mr-3 cursor-pointer" />
+                                <TbMailShare className="text-5xl mr-3 cursor-pointer hover:text-[#ea3f41]" />
                             </div>
                         </div>
 
