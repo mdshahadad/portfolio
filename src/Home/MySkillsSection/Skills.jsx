@@ -3,7 +3,7 @@ import SkillsTitle from "./SkillsTitle";
 
 const Skills = () => {
     return (
-        <div className="bg-black h-screen mb-20">
+        <div className="bg-black h-fit mb-20">
             <div className="relative">
                 <SkillsTitle></SkillsTitle>
             </div>
