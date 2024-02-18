@@ -34,7 +34,8 @@ const ContactIcons = () => {
                     <h4 className="text-center font-semibold text-lg">Whatsapp</h4>
                     <p>01690-103374</p>
                     <div className="flex justify-center">
-                        <Link>
+                        <Link
+                        >
                             <button className="flex items-center text-lg cursor-pointer px-8 py-2 rounded-full bg-black text-white mt-8 hover:font-medium hover:bg-transparent border-2 border-black hover:text-black" >Say Hello <FaPaperPlane className="ml-2 text-xl" /></button>
                         </Link>
                     </div>
@@ -48,7 +49,7 @@ const ContactIcons = () => {
                     <h4 className="text-center font-semibold text-lg">Telegram</h4>
                     <p>mohammadshahadad</p>
                     <div className="flex justify-center">
-                        <Link>
+                        <Link to={`https://t.me/mohammadshahadad`}>
                             <button className="flex items-center text-lg cursor-pointer px-8 py-2 rounded-full bg-black text-white mt-8 hover:font-medium hover:bg-transparent border-2 border-black hover:text-black" >Say Hello <FaPaperPlane className="ml-2 text-xl" /></button>
                         </Link>
                     </div>

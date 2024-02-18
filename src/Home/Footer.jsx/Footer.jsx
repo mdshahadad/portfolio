@@ -4,7 +4,7 @@ import { FaHeadphones, FaPaperPlane, FaWhatsapp } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io5";
 import { LuCopyright } from "react-icons/lu";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { GoFileDirectoryFill } from "react-icons/go";
 
 
@@ -40,10 +40,14 @@ const Footer = () => {
                     <div>
                         <div className="flex">
                             <div>
-                                <IoLogoLinkedin className="text-5xl mr-3 cursor-pointer hover:text-[#0A6BCA]" />
+                                <Link to={`https://www.linkedin.com/in/shahadad/`}>
+                                    <IoLogoLinkedin className="text-5xl mr-3 cursor-pointer hover:text-[#0A6BCA]" />
+                                </Link>
                             </div>
                             <div>
-                                <IoLogoGithub className="text-5xl mr-3 cursor-pointer" />
+                                <Link to={`https://github.com/mdshahadad`}>
+                                    <IoLogoGithub className="text-5xl mr-3 cursor-pointer" />
+                                </Link>
                             </div>
                             <div>
                                 <FaTelegram className="text-5xl mr-3 cursor-pointer hover:text-[#2a9cd4]" />
