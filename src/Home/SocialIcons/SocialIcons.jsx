@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-import { IoLogoLinkedin } from "react-icons/io5";
-import { IoLogoGithub } from "react-icons/io5";
+import { IoLogoLinkedin, IoLogoGithub } from "react-icons/io5";
 
 const SocialIcons = () => {
     return (
