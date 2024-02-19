@@ -1,6 +1,18 @@
 import { HiDocumentArrowDown } from "react-icons/hi2";
 
 const AboutMeText = () => {
+
+    const handleDownload = () => {
+
+        const resumePath = '../../shahadad_resume.pdf';
+
+        const link = document.createElement('a');
+        link.href = resumePath;
+        link.download = "shahadad_resume.pdf";
+        console.log(link)
+        link.click();
+    }
+
     return (
         <div className="">
             <div data-aos="fade-left"
@@ -24,7 +36,10 @@ const AboutMeText = () => {
 
                 <div className="">
                     <p className="text-base font-normal mt-4 md:mt-10 mb-1 md:mb-4 text-white opacity-75">Here is my Resume</p>
-                    <button className="md:px-12 px-10 md:bg-white border-2 md:border-0 opacity-75 hover:opacity-100 font-bold md:text-black text-white
+
+                    <button
+                        onClick={handleDownload}
+                        className="md:px-12 px-10 md:bg-white border-2 md:border-0 opacity-75 hover:opacity-100 font-bold md:text-black text-white
                     md:py-5 py-4 rounded-lg flex justify-center items-center
                     hover:bg-transparent hover:text-white
                     hover:outline-dotted text-xl uppercase hover:scale-110 transition-all">
