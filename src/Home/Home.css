@@ -1,3 +1,15 @@
+/* Projects Style */
+
+.projects-card:nth-child(odd) .left {
+    width: 580px;
+    right: 288px;
+}
+.projects-card:nth-child(odd) .right {
+    width: 380px;
+    left: 80px;
+}
+
+
 /* Scroll Bar Custom Design */
 
 ::-webkit-scrollbar {

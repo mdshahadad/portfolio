@@ -3,7 +3,7 @@ import ProjectsTitle from "./ProjectsTitle";
 
 const Projects = () => {
     return (
-        <div className="bg-black h-fit mb-20">
+        <div className="mb-20 relative">
             <div className="relative">
                 <ProjectsTitle></ProjectsTitle>
             </div>

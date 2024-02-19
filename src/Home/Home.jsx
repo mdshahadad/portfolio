@@ -28,7 +28,7 @@ const Home = () => {
                     </>
                 }
             </div>
-            <div className="">
+            <div className="bg-black h-full">
                 {
                     !showMenu &&
                     <>
