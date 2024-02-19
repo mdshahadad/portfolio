@@ -2,6 +2,15 @@
     margin: 24px;
 }
 
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(89, 127, 216);
+    border-radius: 20px;
+}
+
 .nav-res {
     list-style: none;
     background-color: white;
@@ -88,9 +97,11 @@
 .icon-card:hover .whatsapp {
     color: #2bb741;
 }
+
 .icon-card:hover .telegram {
     color: #2a9cd4;
 }
+
 .icon-card:hover .email {
     color: #ea3f41;
 }
