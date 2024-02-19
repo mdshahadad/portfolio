@@ -4,13 +4,30 @@ const AboutMeText = () => {
 
     const handleDownload = () => {
 
-        const resumePath = '../../shahadad_resume.pdf';
+        // const resumePath = '../../../public/shahadad_resume.pdf';
 
-        const link = document.createElement('a');
-        link.href = resumePath;
-        link.download = "shahadad_resume.pdf";
-        console.log(link)
-        link.click();
+        // const link = document.createElement('a');
+        // link.href = resumePath;
+        // link.download = "shahadad_resume.pdf";
+        // console.log(link)
+        // link.click();
+
+        fetch("shahadad_resume.pdf")
+            .then((response) => {
+                response.blob()
+                    .then((blob) => {
+
+                        // Creating new object of PDF file
+                        const fileURL =
+                            window.URL.createObjectURL(blob);
+
+                        // Setting various property values
+                        let alink = document.createElement("a");
+                        alink.href = fileURL;
+                        alink.download = "shahadad_resume.pdf";
+                        alink.click();
+                    });
+            });
     }
 
     return (
