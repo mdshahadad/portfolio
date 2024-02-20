@@ -16,7 +16,7 @@ import ServicesTitle from "./Services/ServicesTitle";
 
 const Home = () => {
     const [showMenu, setShowMenu] = useState(false);
-    console.log(showMenu);
+    // console.log(showMenu);
     return (
         <div className="bg-black relative">
             <div className="relative z-30">

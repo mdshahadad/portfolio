@@ -5,6 +5,7 @@ import ContactComponents from "../../Contact/ContactComponents";
 import ServicesCompo from "../../Services/ServicesCompo";
 import ProjectsCompo from "../../Projects/ProjectsCompo";
 import AboutCompo from "../../AboutCompo/AboutCompo";
+import ServicesOrderForm from "../../Pages/ServicesOrderForm";
 
 const router = createBrowserRouter([
     {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
                 path: '/contact',
                 element: <ContactComponents></ContactComponents>
             },
+            {
+                path: '/services/order',
+                element: <ServicesOrderForm></ServicesOrderForm>
+            }
         ]
     }
 ])

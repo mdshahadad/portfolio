@@ -1,13 +1,11 @@
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 import { TbDeviceImacCode } from "react-icons/tb";
-// import { FaHeadphones } from "react-icons/fa";
 import { BsFileEarmarkCodeFill } from "react-icons/bs";
 import { TbSettingsCode } from "react-icons/tb";
 import { HiCodeBracketSquare } from "react-icons/hi2";
-import { FaHeadphones } from "react-icons/fa";
 
 
-const ServicesCard = ({ openModal, setOpenModal }) => {
+const ServicesCard = ({ setOpenModal }) => {
     return (
         <div className="max-w-5xl mx-auto py-10">
             <div className="text-white grid grid-cols-2 gap-10 mt-12">
@@ -25,7 +23,7 @@ const ServicesCard = ({ openModal, setOpenModal }) => {
                                 /> Basic Website Development
                             </h3>
                             <div className="mt-16 text-white flex justify-start gap-8">
-                                <h4 onClick={() => setOpenModal(true)}
+                                <h4 onClick={() => setOpenModal({ true: 'true', id: 1 })}
                                     className="flex items-center text-xl cursor-pointer px-4 py-2 rounded-full bg-black hover:bg-transparent hover:text-black font-medium border-2 border-black">View Details <IoIosArrowDroprightCircle className="text-3xl ml-2" /></h4>
                             </div>
                         </div>
@@ -37,7 +35,7 @@ const ServicesCard = ({ openModal, setOpenModal }) => {
                                 /> Your Template Development
                             </h3>
                             <div className="mt-16 text-white flex justify-between gap-8">
-                            <h4 onClick={() => setOpenModal(true)}
+                                <h4 onClick={() => setOpenModal({ true: 'true', id: 2 })}
                                     className="flex items-center text-xl cursor-pointer px-4 py-2 rounded-full bg-black hover:bg-transparent hover:text-black font-medium border-2 border-black">View Details <IoIosArrowDroprightCircle className="text-3xl ml-2" /></h4>
                             </div>
                         </div>
@@ -59,7 +57,7 @@ const ServicesCard = ({ openModal, setOpenModal }) => {
                                 /> Bug Fixing for Website
                             </h3>
                             <div className="mt-16 text-white flex justify-between gap-8">
-                            <h4 onClick={() => setOpenModal(true)}
+                                <h4 onClick={() => setOpenModal({ true: 'true', id: 3 })}
                                     className="flex items-center text-xl cursor-pointer px-4 py-2 rounded-full bg-black hover:bg-transparent hover:text-black font-medium border-2 border-black">View Details <IoIosArrowDroprightCircle className="text-3xl ml-2" /></h4>
 
                                 {/* <h4 className="flex items-center text-xl cursor-pointer px-7 py-2 rounded-full bg-black ">Contact <FaHeadphones className="text-3xl ml-2" /></h4> */}
@@ -73,7 +71,7 @@ const ServicesCard = ({ openModal, setOpenModal }) => {
                                 /> Customize Website
                             </h3>
                             <div className="mt-16 text-white flex justify-between gap-8">
-                            <h4 onClick={() => setOpenModal(true)}
+                                <h4 onClick={() => setOpenModal({ true: 'true', id: 4 })}
                                     className="flex items-center text-xl cursor-pointer px-4 py-2 rounded-full bg-black hover:bg-transparent hover:text-black font-medium border-2 border-black">View Details <IoIosArrowDroprightCircle className="text-3xl ml-2" /></h4>
 
                                 {/* <h4 className="flex items-center text-xl cursor-pointer px-7 py-2 rounded-full bg-black ">Contact <FaHeadphones className="text-3xl ml-2" /></h4> */}

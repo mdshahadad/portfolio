@@ -4,7 +4,8 @@ import ServicesCard from "./ServicesCard";
 // import ServicesTitle from "./ServicesTitle";
 
 const Services = () => {
-    const [openModal, setOpenModal] = useState(false);
+    const [openModal, setOpenModal] = useState({});
+    console.log(openModal)
 
     return (
         <div>
