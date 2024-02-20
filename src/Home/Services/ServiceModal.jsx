@@ -1,6 +1,8 @@
 import { Modal } from "flowbite-react";
-import { HiMiniArrowRightCircle } from "react-icons/hi2";
+// import { HiMiniArrowRightCircle } from "react-icons/hi2";
 import { Link } from "react-router-dom";
+import { FaCartPlus } from "react-icons/fa6";
+
 
 const ServiceModal = ({ openModal, setOpenModal }) => {
     console.log(openModal.id);
@@ -22,7 +24,7 @@ const ServiceModal = ({ openModal, setOpenModal }) => {
                 <div className="flex justify-end px-16 py-10">
                     <Link to={`/services/order`} state={{ details: openModal.id }}>
                         <button
-                            className="flex items-center text-xl cursor-pointer px-8 py-4 rounded-full bg-black text-white text-center ">Get this service <HiMiniArrowRightCircle className="text-4xl ml-2 mt-1" /></button>
+                            className="flex items-center text-xl cursor-pointer px-8 py-2 rounded-full bg-black text-white text-center hover:bg-transparent hover:text-black border-2 border-black font-medium transition-all">Order Service <FaCartPlus className="text-4xl ml-2 mt-1" /></button>
                     </Link>
                 </div>
             </Modal>

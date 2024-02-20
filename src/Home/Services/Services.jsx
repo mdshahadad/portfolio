@@ -1,10 +1,9 @@
 import { useState } from "react";
 import ServiceModal from "./ServiceModal";
 import ServicesCard from "./ServicesCard";
-// import ServicesTitle from "./ServicesTitle";
 
 const Services = () => {
-    const [openModal, setOpenModal] = useState({});
+    const [openModal, setOpenModal] = useState(false);
     console.log(openModal)
 
     return (
