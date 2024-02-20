@@ -9,7 +9,11 @@ const ProjectsCard = () => {
     return (
         <div className=" mt-72 md:w-full md:h-[900px] max-w-7xl mx-auto">
             <div>
-                <div className="container projects-card gap-4 relative w-full">
+                <div
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="1200"
+                    className="container projects-card gap-4 relative w-full">
 
                     <div className="left bg-gray-400 p-2 absolute z-20 rounded-xl cursor-crosshair">
                         <img src={`https://i.postimg.cc/02Syk9PT/portfoliobanner.png`} alt="" className="rounded-xl hover:scale-150 transition ease-in-out duration-700 hover:border-2 hover:border-white" />
@@ -34,7 +38,12 @@ const ProjectsCard = () => {
                         </div>
                     </div>
                 </div>
-                <div className="container projects-card  top-[520px] gap-4 relative w-full">
+
+                <div
+                    data-aos="fade-left"
+                    data-aos-easing="linear"
+                    data-aos-duration="1200"
+                    className="container projects-card  top-[520px] gap-4 relative w-full">
 
                     <div className="left bg-gray-400 p-2 absolute left-20 z-20 rounded-xl w-[580px] cursor-crosshair">
                         <img src={`https://i.postimg.cc/02Syk9PT/portfoliobanner.png`} alt="" className="rounded-xl hover:scale-150 transition ease-in-out duration-500 hover:border-2 hover:border-white" />
