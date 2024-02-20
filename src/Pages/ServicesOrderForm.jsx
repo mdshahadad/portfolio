@@ -14,7 +14,7 @@ const ServicesOrderForm = () => {
             <Navbar></Navbar>
             <div className="max-w-6xl mx-auto">
 
-                <h3 className="text-white opacity-65 font-medium text-3xl mt-16 text-center uppercase hover:opacity-100">you need basic website?</h3>
+                <h3 className="text-white opacity-65 font-medium text-3xl mt-16 text-center uppercase hover:opacity-100">Order Your service here</h3>
                 <p className="text-white text-center font-medium mt-4 text-lg uppercase">Let me help you</p>
 
                 <div className="text-white mt-14">
