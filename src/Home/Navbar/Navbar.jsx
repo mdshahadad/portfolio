@@ -6,15 +6,14 @@ import '../Home.css'
 // import { useState } from "react";
 
 const Navbar = ({ showMenu, setShowMenu }) => {
-    const reloadPage = () => {
-        window.location.reload()
-    }
 
     return (
         <div className="md:flex justify-between items-center max-w-7xl lg:mx-auto py-1">
 
-            <h2 onClick={reloadPage}
-                className="text-white opacity-75 font-bold text-3xl md:text-4xl text-center mb-4 md:mb-0 mt-1 md:mt-0 cursor-pointer">shahadad.</h2>
+            <Link to='/'>
+                <h2
+                    className="text-white opacity-75 font-bold text-3xl md:text-4xl text-center mb-4 md:mb-0 mt-1 md:mt-0 cursor-pointer">shahadad.</h2>
+            </Link>
 
             <div className="md:flex md:items-center">
 

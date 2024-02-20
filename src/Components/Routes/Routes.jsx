@@ -16,21 +16,21 @@ const router = createBrowserRouter([
                 element: <Home></Home>
             },
             {
-                path: '/contact',
-                element: <ContactComponents></ContactComponents>
-            },
-            {
-                path: '/services',
-                element: <ServicesCompo></ServicesCompo>
+                path: '/about',
+                element: <AboutCompo></AboutCompo>
             },
             {
                 path: '/projects',
                 element: <ProjectsCompo></ProjectsCompo>
             },
             {
-                path: '/about',
-                element: <AboutCompo></AboutCompo>
-            }
+                path: '/services',
+                element: <ServicesCompo></ServicesCompo>
+            },
+            {
+                path: '/contact',
+                element: <ContactComponents></ContactComponents>
+            },
         ]
     }
 ])

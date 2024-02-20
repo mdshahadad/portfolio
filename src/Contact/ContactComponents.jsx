@@ -1,6 +1,7 @@
 import ContactForm from "../Home/ContactSection/ContactForm";
 import Footer from "../Home/Footer.jsx/Footer";
 import Navbar from "../Home/Navbar/Navbar";
+import SocialIcons from "../Home/SocialIcons/SocialIcons";
 
 const ContactComponents = () => {
     return (
@@ -9,6 +10,7 @@ const ContactComponents = () => {
             <div className="max-w-6xl mx-auto -mt-20">
                 <ContactForm></ContactForm>
             </div>
+            <SocialIcons></SocialIcons>
             <Footer></Footer>
         </div>
     );

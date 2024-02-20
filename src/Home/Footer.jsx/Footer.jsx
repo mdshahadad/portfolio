@@ -24,17 +24,17 @@ const Footer = () => {
                                 <div className="flex justify-center">
                                     <GoFileDirectoryFill className="text-5xl mb-2" />
                                 </div>
-                                <NavLink>Projects</NavLink></li>
+                                <NavLink to='/projects'>Projects</NavLink></li>
                             <li className="mr-4 text-2xl">
                                 <div className="flex justify-center">
                                     <TbDeviceImacCode className="text-5xl mb-2" />
                                 </div>
-                                <NavLink>Services</NavLink></li>
+                                <NavLink to='/services'>Services</NavLink></li>
                             <li className="mr-4  text-2xl">
                                 <div className="flex justify-center">
                                     <FaHeadphones className="text-5xl mb-2" />
                                 </div>
-                                <NavLink>Contact</NavLink></li>
+                                <NavLink to='/contact'>Contact</NavLink></li>
                         </ul>
                     </div>
                     <div>
