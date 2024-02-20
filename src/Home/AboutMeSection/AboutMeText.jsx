@@ -4,14 +4,6 @@ const AboutMeText = () => {
 
     const handleDownload = () => {
 
-        // const resumePath = '../../../public/shahadad_resume.pdf';
-
-        // const link = document.createElement('a');
-        // link.href = resumePath;
-        // link.download = "shahadad_resume.pdf";
-        // console.log(link)
-        // link.click();
-
         fetch("shahadad_resume.pdf")
             .then((response) => {
                 console.log(response)
@@ -22,7 +14,7 @@ const AboutMeText = () => {
                         // Creating new object of PDF file
                         const fileURL =
                             window.URL.createObjectURL(blob);
-                            console.log(fileURL)
+                        console.log(fileURL)
 
                         // // Setting various property values
                         let alink = document.createElement("a");
@@ -40,7 +32,7 @@ const AboutMeText = () => {
                 // data-aos-delay="200"
                 data-aos-easing="linear"
                 className="z-20 md:hover:z-10 absolute top-20 md:top-28 right-0 md:right-60">
-                <img className="opacity-25" src="https://i.postimg.cc/c4pMKW73/IMG-2118-1.png" alt="" />
+                <img className="opacity-25 hover:opacity-100 transition duration-1000" src="https://i.postimg.cc/c4pMKW73/IMG-2118-1.png" alt="" />
             </div>
             <div
                 data-aos="fade-right"
