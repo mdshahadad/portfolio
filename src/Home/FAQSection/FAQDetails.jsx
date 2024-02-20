@@ -9,7 +9,7 @@ const FAQDetails = () => {
             className="mt-16 max-w-5xl mx-auto">
             <Accordion collapseAll>
                 <Accordion.Panel>
-                    <Accordion.Title className="text-3xl uppercase">Who am i?</Accordion.Title>
+                    <Accordion.Title className="text-2xl">Who am i?</Accordion.Title>
                     <Accordion.Content>
                         <p className="mb-2 text-white dark:text-white">
                             Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons,
@@ -28,7 +28,7 @@ const FAQDetails = () => {
                     </Accordion.Content>
                 </Accordion.Panel>
                 <Accordion.Panel>
-                    <Accordion.Title className="text-3xl">Is there a Figma file available?</Accordion.Title>
+                    <Accordion.Title className="text-2xl">Is there a Figma file available?</Accordion.Title>
                     <Accordion.Content>
                         <p className="mb-2 text-gray-500 dark:text-gray-400">
                             Flowbite is first conceptualized and designed using the Figma software so everything you see in the library
@@ -44,7 +44,7 @@ const FAQDetails = () => {
                     </Accordion.Content>
                 </Accordion.Panel>
                 <Accordion.Panel>
-                    <Accordion.Title className="text-3xl">What are the differences between Flowbite and Tailwind UI?</Accordion.Title>
+                    <Accordion.Title className="text-2xl">What are the differences between Flowbite and Tailwind UI?</Accordion.Title>
                     <Accordion.Content>
                         <p className="mb-2 text-gray-500 dark:text-gray-400">
                             The main difference is that the core components from Flowbite are open source under the MIT license, whereas
