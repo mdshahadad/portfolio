@@ -1,5 +1,3 @@
-// import { useState } from "react";
-
 import { FaPaperPlane } from "react-icons/fa";
 
 const ContactForm = () => {
@@ -16,12 +14,22 @@ const ContactForm = () => {
             email,
             message
         }
-        console.log(clientDetails)
+        console.log(clientDetails);
+
+        fetch('http://localhost:5000/inbox', {
+            method: 'POST',
+            headers: {
+                'content-type': 'application/json',
+            },
+            body: JSON.stringify(clientDetails)
+        })
+            .then(res => res.json())
+            .then(data => console.log(data));
     }
 
     return (
         <div className="pb-20">
-            <h3 className="text-white opacity-65 font-medium text-3xl text-center mt-40 uppercase hover:opacity-100">do you Need website?</h3>
+            <h3 className="text-white opacity-65 font-medium text-3xl text-center mt-32 uppercase hover:opacity-100">do you Need website?</h3>
             <p className="text-white text-center font-medium mt-4 text-lg uppercase">Let me help you</p>
             <div className="text-white mt-14">
                 <form onSubmit={handleContactForm} action="">
