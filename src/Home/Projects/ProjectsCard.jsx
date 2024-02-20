@@ -7,7 +7,7 @@ import '../Home.css';
 
 const ProjectsCard = () => {
     return (
-        <div className=" mt-72 md:w-full md:h-[900px] max-w-7xl mx-auto">
+        <div className="mt-72 md:w-full md:h-[900px] max-w-7xl mx-auto">
             <div>
                 <div
                     data-aos="fade-right"

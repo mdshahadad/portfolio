@@ -39,21 +39,24 @@ const ContactForm = () => {
                             {/* name field */}
                             <input
                                 name="name"
-                                className="w-full rounded-xl bg-transparent border-2 py-4 px-5 font-medium text-lg" placeholder="Write your name" type="text" id="name" />
+                                className="w-full rounded-xl bg-transparent border-2 py-4 px-5 font-medium text-lg" placeholder="Write your name" type="text" id="name"
+                                required />
                         </div>
                         <div className="w-full">
 
                             {/* Email field */}
                             <input
                                 name="email"
-                                className="w-full rounded-xl bg-transparent border-2 py-4 px-5 font-medium text-lg" placeholder="Write your email" type="email" id="email" />
+                                className="w-full rounded-xl bg-transparent border-2 py-4 px-5 font-medium text-lg" placeholder="Write your email" type="email" id="email"
+                                required />
                         </div>
                     </div>
                     <div className="flex items-end justify-between mt-8">
                         <div className="w-full">
 
                             {/* text details area */}
-                            <textarea className="w-full rounded-xl bg-transparent border-2 py-4 px-5 font-medium text-lg" name="message" id="" cols="30" rows="10" placeholder="Tell me what you want to say in details"></textarea>
+                            <textarea
+                            required className="w-full rounded-xl bg-transparent border-2 py-4 px-5 font-medium text-lg" name="message" id="" cols="30" rows="10" placeholder="Tell me what you want to say in details"></textarea>
                         </div>
                         <div className="w-1/3 ml-10 mb-1">
                             <div className="">

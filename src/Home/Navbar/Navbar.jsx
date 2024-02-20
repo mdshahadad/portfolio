@@ -29,9 +29,9 @@ const Navbar = ({ showMenu, setShowMenu }) => {
                         }
                             `}>
                         <li><NavLink to="/">Home</NavLink></li>
-                        <li><NavLink>About</NavLink></li>
-                        <li><NavLink>Projects</NavLink></li>
-                        <li><NavLink>Service</NavLink></li>
+                        <li><NavLink to="/about">About</NavLink></li>
+                        <li><NavLink to="/projects">Projects</NavLink></li>
+                        <li><NavLink to="/services">Service</NavLink></li>
                         <li><NavLink to="/contact">Contact</NavLink></li>
                     </ul>
                 </div>

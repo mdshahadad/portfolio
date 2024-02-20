@@ -12,6 +12,7 @@ import Contact from "./ContactSection/Contact";
 import Footer from "./Footer.jsx/Footer";
 import Projects from "./Projects/Projects";
 import FAQ from "./FAQSection/FAQ";
+import ServicesTitle from "./Services/ServicesTitle";
 
 const Home = () => {
     const [showMenu, setShowMenu] = useState(false);
@@ -36,7 +37,13 @@ const Home = () => {
                         <AboutMe></AboutMe>
                         <Skills></Skills>
                         <Projects></Projects>
-                        <Services></Services>
+                        <div className="bg-black mb-20">
+                            <div className="relative">
+                                <ServicesTitle></ServicesTitle>
+                            </div>
+                            <h3 className="text-white opacity-65 font-medium text-3xl text-center mt-72 uppercase hover:opacity-100">Choose services you want</h3>
+                            <Services></Services>
+                        </div>
                         <Contact></Contact>
                         <FAQ></FAQ>
                         <Footer></Footer>
