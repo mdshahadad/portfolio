@@ -4,6 +4,7 @@ import Home from "../../Home/Home";
 import ContactComponents from "../../Contact/ContactComponents";
 import ServicesCompo from "../../Services/ServicesCompo";
 import ProjectsCompo from "../../Projects/ProjectsCompo";
+import AboutCompo from "../../AboutCompo/AboutCompo";
 
 const router = createBrowserRouter([
     {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
             {
                 path: '/projects',
                 element: <ProjectsCompo></ProjectsCompo>
+            },
+            {
+                path: '/about',
+                element: <AboutCompo></AboutCompo>
             }
         ]
     }
