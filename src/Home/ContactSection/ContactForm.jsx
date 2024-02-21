@@ -24,7 +24,11 @@ const ContactForm = () => {
             body: JSON.stringify(clientDetails)
         })
             .then(res => res.json())
-            .then(data => console.log(data));
+            .then(data => {
+                if (data.insertedId) {
+                    form.reset()
+                }
+            });
     }
 
     return (
@@ -56,7 +60,7 @@ const ContactForm = () => {
 
                             {/* text details area */}
                             <textarea
-                            required className="w-full rounded-xl bg-transparent border-2 py-4 px-5 font-medium text-lg" name="message" id="" cols="30" rows="10" placeholder="Tell me what you want to say in details"></textarea>
+                                required className="w-full rounded-xl bg-transparent border-2 py-4 px-5 font-medium text-lg" name="message" id="" cols="30" rows="10" placeholder="Tell me what you want to say in details"></textarea>
                         </div>
                         <div className="w-1/3 ml-10 mb-1">
                             <div className="">

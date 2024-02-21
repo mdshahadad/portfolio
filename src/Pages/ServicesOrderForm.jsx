@@ -24,6 +24,7 @@ const ServicesOrderForm = () => {
             message,
             id
         }
+        console.log(orderDetails)
 
         fetch('http://localhost:5000/orders', {
             method: 'POST',
@@ -33,7 +34,11 @@ const ServicesOrderForm = () => {
             body: JSON.stringify(orderDetails)
         })
             .then(res => res.json())
-            .then(data => console.log(data))
+            .then(data => {
+                if (data.insertedId) {
+                    form.reset()
+                }
+            })
 
     }
 
@@ -72,7 +77,7 @@ const ServicesOrderForm = () => {
                                     <input
                                         name="type"
                                         placeholder="Type: Like portfolio, restaurant & others"
-                                        className="w-full rounded-xl bg-transparent border-2 py-4 px-5 font-medium text-lg" type="text" id="name"
+                                        className="w-full rounded-xl bg-transparent border-2 py-4 px-5 font-medium text-lg" type="text" id="type"
                                         required />
                                 </div>
                                 <div className="w-full mt-4">
