@@ -37,7 +37,7 @@ const ContactForm = () => {
 
     return (
         <div className="pb-20">
-            <h3 className="text-white opacity-65 font-medium text-3xl text-center mt-32 uppercase hover:opacity-100">do you Need website?</h3>
+            <h3 className="text-white opacity-65 font-medium text-3xl text-center mt-32 uppercase hover:opacity-100">have a questions or need a website?</h3>
             <p className="text-white text-center font-medium mt-4 text-lg uppercase">Let me help you</p>
             <div className="text-white mt-14">
                 <form onSubmit={handleContactForm} action="">
