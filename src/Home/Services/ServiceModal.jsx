@@ -5,7 +5,7 @@ import { FaCartPlus } from "react-icons/fa6";
 
 
 const ServiceModal = ({ openModal, setOpenModal }) => {
-    console.log(openModal.id);
+    console.log(openModal.service);
 
     return (
         <div>
@@ -22,7 +22,7 @@ const ServiceModal = ({ openModal, setOpenModal }) => {
                     </div>
                 </Modal.Body>
                 <div className="flex justify-end px-16 py-10">
-                    <Link to={`/services/order`} state={{ id: openModal.id }}>
+                    <Link to={`/services/order`} state={{ service: openModal.service }}>
                         <button
                             className="flex items-center text-xl cursor-pointer px-8 py-2 rounded-full bg-black text-white text-center hover:bg-transparent hover:text-black border-2 border-black font-medium transition-all">Order Service <FaCartPlus className="text-4xl ml-2 mt-1" /></button>
                     </Link>

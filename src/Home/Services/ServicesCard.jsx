@@ -23,7 +23,7 @@ const ServicesCard = ({ setOpenModal }) => {
                                 /> Basic Website Development
                             </h3>
                             <div className="mt-16 text-white flex justify-start gap-8">
-                                <h4 onClick={() => setOpenModal({ true: 'true', id: 1 })}
+                                <h4 onClick={() => setOpenModal({ true: 'true', service: 'basic' })}
                                     className="flex items-center text-xl cursor-pointer px-4 py-2 rounded-full bg-black hover:bg-transparent hover:text-black font-medium border-2 border-black">View Details <IoIosArrowDroprightCircle className="text-3xl ml-2" /></h4>
                             </div>
                         </div>
@@ -35,7 +35,7 @@ const ServicesCard = ({ setOpenModal }) => {
                                 /> Your Template Development
                             </h3>
                             <div className="mt-16 text-white flex justify-between gap-8">
-                                <h4 onClick={() => setOpenModal({ true: 'true', id: 2 })}
+                                <h4 onClick={() => setOpenModal({ true: 'true', service: 'template' })}
                                     className="flex items-center text-xl cursor-pointer px-4 py-2 rounded-full bg-black hover:bg-transparent hover:text-black font-medium border-2 border-black">View Details <IoIosArrowDroprightCircle className="text-3xl ml-2" /></h4>
                             </div>
                         </div>
@@ -57,10 +57,8 @@ const ServicesCard = ({ setOpenModal }) => {
                                 /> Bug Fixing for Website
                             </h3>
                             <div className="mt-16 text-white flex justify-between gap-8">
-                                <h4 onClick={() => setOpenModal({ true: 'true', id: 3 })}
+                                <h4 onClick={() => setOpenModal({ true: 'true', service: 'bug' })}
                                     className="flex items-center text-xl cursor-pointer px-4 py-2 rounded-full bg-black hover:bg-transparent hover:text-black font-medium border-2 border-black">View Details <IoIosArrowDroprightCircle className="text-3xl ml-2" /></h4>
-
-                                {/* <h4 className="flex items-center text-xl cursor-pointer px-7 py-2 rounded-full bg-black ">Contact <FaHeadphones className="text-3xl ml-2" /></h4> */}
                             </div>
                         </div>
                         <div className="mb-10 bg-white hover:opacity-100 opacity-75 text-black px-16 py-12 rounded-xl w-[440px] hover:scale-110 hover:transition-all">
@@ -71,10 +69,8 @@ const ServicesCard = ({ setOpenModal }) => {
                                 /> Customize Website
                             </h3>
                             <div className="mt-16 text-white flex justify-between gap-8">
-                                <h4 onClick={() => setOpenModal({ true: 'true', id: 4 })}
+                                <h4 onClick={() => setOpenModal({ true: 'true', service: 'customize' })}
                                     className="flex items-center text-xl cursor-pointer px-4 py-2 rounded-full bg-black hover:bg-transparent hover:text-black font-medium border-2 border-black">View Details <IoIosArrowDroprightCircle className="text-3xl ml-2" /></h4>
-
-                                {/* <h4 className="flex items-center text-xl cursor-pointer px-7 py-2 rounded-full bg-black ">Contact <FaHeadphones className="text-3xl ml-2" /></h4> */}
                             </div>
                         </div>
                     </div>

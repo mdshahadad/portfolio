@@ -17,7 +17,7 @@ const ContactForm = () => {
         }
         console.log(clientDetails);
 
-        fetch('http://localhost:5000/inbox', {
+        fetch('https://shahadad.vercel.app/inbox', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',

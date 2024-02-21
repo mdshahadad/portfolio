@@ -5,8 +5,8 @@ import toast, { Toaster } from "react-hot-toast";
 
 const ServicesOrderForm = () => {
     const location = useLocation();
-    const { id } = location.state;
-    console.log(id);
+    const { service } = location.state;
+    console.log(service);
 
     const handleOrderService = e => {
         e.preventDefault();
@@ -21,11 +21,11 @@ const ServicesOrderForm = () => {
             email,
             type,
             message,
-            id
+            service
         }
         console.log(orderDetails)
 
-        fetch('http://localhost:5000/orders', {
+        fetch('https://shahadad.vercel.app/orders', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -34,6 +34,7 @@ const ServicesOrderForm = () => {
         })
             .then(res => res.json())
             .then(data => {
+                console.log(data)
                 if (data.insertedId) {
                     form.reset();
                     toast.success('Your Order Submitted', {
