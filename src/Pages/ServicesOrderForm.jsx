@@ -1,11 +1,10 @@
 import Navbar from "../Home/Navbar/Navbar";
 import { useLocation } from "react-router-dom";
 import { FaTruckFast } from "react-icons/fa6";
-
+import toast, { Toaster } from "react-hot-toast";
 
 const ServicesOrderForm = () => {
     const location = useLocation();
-    // console.log(location)
     const { id } = location.state;
     console.log(id);
 
@@ -36,7 +35,10 @@ const ServicesOrderForm = () => {
             .then(res => res.json())
             .then(data => {
                 if (data.insertedId) {
-                    form.reset()
+                    form.reset();
+                    toast.success('Your Order Submitted', {
+                        duration: 2000
+                    })
                 }
             })
 
@@ -95,6 +97,12 @@ const ServicesOrderForm = () => {
                             </div>
                         </div>
                     </form>
+                    <Toaster
+                        toastOptions={{
+                            style: {
+                                marginTop: '50px',
+                            }
+                        }} />
                 </div>
             </div>
         </div>

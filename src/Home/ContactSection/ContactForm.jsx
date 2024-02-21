@@ -1,3 +1,4 @@
+import toast, { Toaster } from "react-hot-toast";
 import { FaPaperPlane } from "react-icons/fa";
 
 const ContactForm = () => {
@@ -26,7 +27,10 @@ const ContactForm = () => {
             .then(res => res.json())
             .then(data => {
                 if (data.insertedId) {
-                    form.reset()
+                    form.reset();
+                    toast.success('Message Send', {
+                        duration: 2000
+                    })
                 }
             });
     }
@@ -73,6 +77,13 @@ const ContactForm = () => {
                         </div>
                     </div>
                 </form>
+                <Toaster
+                    toastOptions={{
+                        style: {
+                            marginTop: '50px',
+                        }
+                    }}
+                />
             </div>
         </div>
     );
