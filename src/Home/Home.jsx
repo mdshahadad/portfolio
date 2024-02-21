@@ -35,8 +35,7 @@ const Home = () => {
                     !showMenu &&
                     <>
                         <AboutMe></AboutMe>
-                        <Skills></Skills>
-                        <Projects></Projects>
+                        {/* Service section */}
                         <div className="bg-black mb-20">
                             <div className="relative">
                                 <ServicesTitle></ServicesTitle>
@@ -44,8 +43,11 @@ const Home = () => {
                             <h3 className="text-white opacity-65 font-medium text-3xl text-center mt-72 uppercase hover:opacity-100">Choose services you want</h3>
                             <Services></Services>
                         </div>
-                        <Contact></Contact>
+                        <Skills></Skills>
+                        <Projects></Projects>
+                        
                         <FAQ></FAQ>
+                        <Contact></Contact>
                         <Footer></Footer>
                     </>
                 }

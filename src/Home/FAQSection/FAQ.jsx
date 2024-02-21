@@ -10,7 +10,7 @@ const FAQ = () => {
                 <div className="relative">
                     <FAQTitle></FAQTitle>
                 </div>
-                <h3 className="text-white font-medium text-3xl text-center mt-72 uppercase hover:opacity-100">All your answer is here</h3>
+                <h3 className="text-white font-medium text-3xl text-center mt-72 uppercase hover:opacity-100">All your question answer is here</h3>
                 <FAQDetails></FAQDetails>
             </div>
             <div>
