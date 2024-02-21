@@ -7,7 +7,9 @@ const AboutCompo = () => {
     return (
         <div className="bg-black">
             <Navbar></Navbar>
-            <AboutMe></AboutMe>
+            <div className="mt-8">
+                <AboutMe></AboutMe>
+            </div>
             <SocialIcons></SocialIcons>
             <Footer></Footer>
         </div>
