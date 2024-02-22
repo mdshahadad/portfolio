@@ -4,7 +4,6 @@ import ServicesCard from "./ServicesCard";
 
 const Services = () => {
     const [openModal, setOpenModal] = useState(false);
-    console.log(openModal)
 
     return (
         <div>

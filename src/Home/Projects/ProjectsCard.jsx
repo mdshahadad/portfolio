@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 
 
 const ProjectsCard = ({ project }) => {
-    console.log(project)
-    const { details, github, image, livelink, title } = project;
+    const { details, github, image, liveLink, title } = project;
     return (
         <div className="mt-72 md:w-full md:h-[200px] max-w-7xl mx-auto">
             <div className="">
@@ -20,7 +19,7 @@ const ProjectsCard = ({ project }) => {
 
                     <div className="right bg-white opacity-80 px-5 py-10 absolute z-10 rounded-xl hover:z-30 hover:opacity-100 hover:scale-110 transition ease-linear duration-300">
                         <div className="flex justify-start">
-                            <Link to={livelink}>                        <IoOpenOutline className="text-5xl ml-2 cursor-pointer hover:scale-125 transition-all" />
+                            <Link to={liveLink}>                        <IoOpenOutline className="text-5xl ml-2 cursor-pointer hover:scale-125 transition-all" />
                             </Link>
                             <Link to={github}>                        <IoLogoGithub className="text-5xl ml-2 cursor-pointer hover:scale-125 transition-all" />
                             </Link>

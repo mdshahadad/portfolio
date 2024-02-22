@@ -5,7 +5,6 @@ import { FaCartPlus } from "react-icons/fa6";
 
 
 const ServiceModal = ({ openModal, setOpenModal }) => {
-    console.log(openModal.service);
 
     return (
         <div>
