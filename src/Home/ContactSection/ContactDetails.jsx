@@ -3,7 +3,7 @@ import ContactIcons from "./ContactIcons";
 
 const ContactDetails = () => {
     return (
-        <div className="max-w-6xl mx-auto mt-14">
+        <div className="md:max-w-6xl md:mx-auto mt-14">
             <ContactIcons></ContactIcons>
             <ContactForm></ContactForm>
         </div>

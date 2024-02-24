@@ -16,7 +16,6 @@ import ServicesTitle from "./Services/ServicesTitle";
 
 const Home = () => {
     const [showMenu, setShowMenu] = useState(false);
-    // console.log(showMenu);
     return (
         <div className="bg-black relative">
             <div className="relative z-30">
@@ -25,7 +24,7 @@ const Home = () => {
                 <BannerText showMenu={showMenu}></BannerText>
                 {!showMenu &&
                     <>
-                        {/* <SocialIcons></SocialIcons> */}
+                        <SocialIcons></SocialIcons>
                         <MouseScroll></MouseScroll>
                     </>
                 }
@@ -34,8 +33,7 @@ const Home = () => {
                 {
                     !showMenu &&
                     <>
-                        {/* <AboutMe></AboutMe> */}
-                        {/* Service section */}
+                        <AboutMe></AboutMe>
                         <div className="bg-black mb-20">
                             <div className="relative">
                                 <ServicesTitle></ServicesTitle>
@@ -44,11 +42,11 @@ const Home = () => {
                             <Services></Services>
                         </div>
                         <Skills></Skills>
-                        {/* <Projects></Projects>
+                        <Projects></Projects>
                         
                         <FAQ></FAQ>
                         <Contact></Contact>
-                        <Footer></Footer> */}
+                        <Footer></Footer>
                     </>
                 }
             </div>

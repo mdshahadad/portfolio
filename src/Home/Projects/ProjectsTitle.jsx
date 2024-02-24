@@ -7,7 +7,7 @@ const ProjectsTitle = () => {
             className="flex justify-center">
 
             <h1
-                className="text-strokeTitle title-position absolute z-20 hover:z-30 md:-top-10 font-extrabold md:text-[110px] lg:text-[200px] uppercase"
+                className="text-strokeTitle title-position absolute z-20 hover:z-30 md:-top-10 font-extrabold uppercase title-style"
             >What i did?</h1>
         </div>
     );

@@ -3,7 +3,7 @@ import { BsFillCheckCircleFill } from "react-icons/bs";
 
 const SkillsCard = () => {
     return (
-        <div className="text-white md:flex justify-between md:max-w-5xl md:mx-auto mt-20 px-5 overflow-x-hidden">
+        <div className="text-white md:flex justify-between md:max-w-5xl md:mx-auto mt-20 px-5 overflow-x-hidden md:overflow-visible">
             <div
 
                 data-aos="fade-right"
@@ -12,7 +12,7 @@ const SkillsCard = () => {
                 className="cursor-pointer">
                 <div
                     className="bg-white opacity-75
-             text-black rounded-xl px-5 md:px-16 py-16 uppercase hover:opacity-100 hover:scale-105 hover:transition-all mb-5 md:mb-0">
+             text-black rounded-xl px-4 md:px-16 py-16 uppercase hover:opacity-100 hover:scale-105 hover:transition-all mb-5 md:mb-0">
                     <div>
                         <h3 className="text-center text-2xl font-semibold mb-8">Front End</h3>
                     </div>
@@ -36,7 +36,7 @@ const SkillsCard = () => {
                 className="cursor-pointer">
                 <div
                     className="bg-white opacity-75
-             text-black rounded-xl px-5 md:px-[92.5px] py-16 md:py-24 uppercase hover:opacity-100 hover:scale-105 hover:transition-all">
+             text-black rounded-xl px-[18px] md:px-[92.5px] py-16 md:py-24 uppercase hover:opacity-100 hover:scale-105 hover:transition-all">
                     <div>
                         <h3 className="text-center text-2xl font-semibold mb-8">back End</h3>
                     </div>
