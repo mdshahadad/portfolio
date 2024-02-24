@@ -1,0 +1,36 @@
+.title-style {
+    font-size: 200px;
+}
+
+@media screen and (max-width: 320px) {
+    .title-style {
+        font-size: 40px;
+    }
+
+    .text-strokeTitle {
+        -webkit-text-fill-color: #fff;
+        -webkit-text-stroke: 0px;
+    }
+}
+
+@media screen  and (min-width: 321px) and (max-width: 376px) {
+    .title-style {
+        font-size: 47px;
+    }
+
+    .text-strokeTitle {
+        -webkit-text-fill-color: #fff;
+        -webkit-text-stroke: 0px;
+    }
+}
+
+@media screen and (min-width: 377px) and (max-width: 425px) {
+    .title-style {
+        font-size: 53px;
+    }
+
+    .text-strokeTitle {
+        -webkit-text-fill-color: #fff;
+        -webkit-text-stroke: 0px;
+    }
+}

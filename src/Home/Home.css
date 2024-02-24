@@ -217,6 +217,17 @@
         top: 5px;
     }
 
+    .skills-style p {
+        background-color: black;
+        opacity: 90%;
+        color: white;
+        padding: 8px 10px;
+        border-radius: 8px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
     /* @keyframes scroll {
         0% {
             opacity: 4;

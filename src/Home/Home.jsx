@@ -25,7 +25,7 @@ const Home = () => {
                 <BannerText showMenu={showMenu}></BannerText>
                 {!showMenu &&
                     <>
-                        <SocialIcons></SocialIcons>
+                        {/* <SocialIcons></SocialIcons> */}
                         <MouseScroll></MouseScroll>
                     </>
                 }
@@ -34,21 +34,21 @@ const Home = () => {
                 {
                     !showMenu &&
                     <>
-                        <AboutMe></AboutMe>
+                        {/* <AboutMe></AboutMe> */}
                         {/* Service section */}
                         <div className="bg-black mb-20">
                             <div className="relative">
                                 <ServicesTitle></ServicesTitle>
                             </div>
-                            <h3 className="text-white opacity-65 font-medium text-3xl text-center mt-72 uppercase hover:opacity-100">Choose services you want</h3>
+                            <h3 className="text-white opacity-65 font-medium text-xl md:text-3xl text-center mt-28 md:mt-72 uppercase hover:opacity-100">Choose services you want</h3>
                             <Services></Services>
                         </div>
                         <Skills></Skills>
-                        <Projects></Projects>
+                        {/* <Projects></Projects>
                         
                         <FAQ></FAQ>
                         <Contact></Contact>
-                        <Footer></Footer>
+                        <Footer></Footer> */}
                     </>
                 }
             </div>

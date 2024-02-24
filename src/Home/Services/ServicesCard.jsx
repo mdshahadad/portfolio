@@ -7,17 +7,17 @@ import { HiCodeBracketSquare } from "react-icons/hi2";
 
 const ServicesCard = ({ setOpenModal }) => {
     return (
-        <div className="max-w-5xl mx-auto py-10">
-            <div className="text-white grid grid-cols-2 gap-10 mt-12">
-                <div className="flex justify-center">
+        <div className="md:max-w-5xl md:mx-auto py-10">
+            <div className="text-white grid grid-cols-1 md:grid-cols-2 md:gap-10 mt-12">
+                <div className="md:flex justify-center px-2">
                     <div
-                        data-aos="fade-right"
+                        data-aos="fade-up"
                         data-aos-duration="1000"
                         data-aos-easing="ease-in"
                         className="">
-                        <div className="mb-10 bg-white hover:opacity-100 opacity-75 text-black px-16 py-12 rounded-xl w-[440px] hover:scale-110 hover:transition-all">
+                        <div className="mb-4 md:mb-10 bg-white hover:opacity-100 opacity-75 text-black px-16 py-12 rounded-xl md:w-[440px] hover:md:scale-110 hover:transition-all">
                             <h3
-                                className="text-2xl font-medium">
+                                className="text-xl md:text-2xl font-medium">
                                 <TbDeviceImacCode
                                     className="mr-2 text-7xl"
                                 /> Basic Website Development
@@ -27,9 +27,9 @@ const ServicesCard = ({ setOpenModal }) => {
                                     className="flex items-center text-xl cursor-pointer px-4 py-2 rounded-full bg-black hover:bg-transparent hover:text-black font-medium border-2 border-black">View Details <IoIosArrowDroprightCircle className="text-3xl ml-2" /></h4>
                             </div>
                         </div>
-                        <div className="mb-10 bg-white hover:opacity-100 opacity-75 text-black px-16 py-12 rounded-xl w-[440px] hover:scale-110 hover:transition-all">
+                        <div className="mb-10 bg-white hover:opacity-100 opacity-75 text-black px-16 py-12 rounded-xl md:w-[440px] hover:md:scale-110 hover:transition-all">
                             <h3
-                                className="text-2xl font-medium">
+                                className="text-xl md:text-2xl font-medium">
                                 <BsFileEarmarkCodeFill
                                     className="mr-2 text-7xl"
                                 /> Your Template Development
@@ -42,16 +42,16 @@ const ServicesCard = ({ setOpenModal }) => {
                     </div>
                 </div>
 
-                <div className="flex justify-center">
+                <div className="md:flex justify-center px-2">
                     <div
-                        data-aos="fade-left"
-                        data-aos-offset="300"
+                        data-aos="fade-up"
+                        // data-aos-offset="300"
                         data-aos-duration="1000"
                         data-aos-easing="ease-in"
                         className="">
-                        <div className="mb-10 bg-white opacity-75 text-black px-16 py-12 rounded-xl w-[440px] hover:opacity-100 hover:scale-110 hover:transition-all">
+                        <div className="mb-2 lg:mb-10 bg-white opacity-75 text-black px-16 py-12 rounded-xl md:w-[440px] hover:opacity-100 hover:md:scale-110 hover:transition-all">
                             <h3
-                                className="text-2xl font-medium">
+                                className="text-xl md:text-2xl font-medium">
                                 <TbSettingsCode
                                     className="mr-2 text-7xl"
                                 /> Bug Fixing for Website
@@ -61,9 +61,9 @@ const ServicesCard = ({ setOpenModal }) => {
                                     className="flex items-center text-xl cursor-pointer px-4 py-2 rounded-full bg-black hover:bg-transparent hover:text-black font-medium border-2 border-black">View Details <IoIosArrowDroprightCircle className="text-3xl ml-2" /></h4>
                             </div>
                         </div>
-                        <div className="mb-10 bg-white hover:opacity-100 opacity-75 text-black px-16 py-12 rounded-xl w-[440px] hover:scale-110 hover:transition-all">
+                        <div className="mb-2 md:mb-10 bg-white hover:opacity-100 opacity-75 text-black px-16 py-12 rounded-xl md:w-[440px] hover:md:scale-110 hover:transition-all">
                             <h3
-                                className="text-2xl font-medium">
+                                className="text-xl md:text-2xl font-medium">
                                 <HiCodeBracketSquare
                                     className="mr-2 text-7xl"
                                 /> Customize Website
