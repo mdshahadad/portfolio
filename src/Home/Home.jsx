@@ -14,23 +14,23 @@ import Projects from "./Projects/Projects";
 import FAQ from "./FAQSection/FAQ";
 import ServicesTitle from "./Services/ServicesTitle";
 
-const Home = () => {
-    const [showMenu, setShowMenu] = useState(false);
+const Home = ({ showMenu }) => {
     return (
-        <div className="bg-black relative">
-            <div className="relative z-30">
-                <Navbar showMenu={showMenu} setShowMenu={setShowMenu}></Navbar>
-                <Banner showMenu={showMenu}></Banner>
+        <div className="">
+            <div className="">
+                <Banner></Banner>
+                <BannerText></BannerText>
+                {/* <Banner showMenu={showMenu}></Banner>
                 <BannerText showMenu={showMenu}></BannerText>
                 {!showMenu &&
                     <>
                         <SocialIcons></SocialIcons>
                         <MouseScroll></MouseScroll>
                     </>
-                }
+                } */}
             </div>
             <div className="bg-black h-full">
-                {
+                {/* {
                     !showMenu &&
                     <>
                         <AboutMe></AboutMe>
@@ -48,7 +48,7 @@ const Home = () => {
                         <Contact></Contact>
                         <Footer></Footer>
                     </>
-                }
+                } */}
             </div>
         </div>
     );
