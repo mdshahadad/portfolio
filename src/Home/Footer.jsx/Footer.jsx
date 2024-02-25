@@ -7,11 +7,9 @@ import { LuCopyright } from "react-icons/lu";
 import { Link, NavLink } from "react-router-dom";
 import { GoFileDirectoryFill } from "react-icons/go";
 
-
-
 const Footer = () => {
     return (
-        <div className="w-full bg-white opacity-75 text-center py-20 mt-12">
+        <div className="w-full bg-white opacity-75 text-center py-20 mt-12 z-50">
             <div className="md:max-w-4xl md:mx-auto">
                 <div className="mb-8 md:mb-16">
                     <h2 className="opacity-75 font-bold text-4xl md:text-7xl text-center mb-2 mt-1 md:mt-0 hover:opacity-100">shahadad.</h2>

@@ -26,9 +26,9 @@ const Home = () => {
                 <h3 className="text-white opacity-65 font-medium text-xl md:text-3xl text-center mt-28 md:mt-72 uppercase hover:opacity-100">Choose services you want</h3>
                 <Services></Services>
             <Skills></Skills>
-            {/* <Projects></Projects> */}
+            <Projects></Projects>
             {/* <FAQ></FAQ> */}
-            {/* <Contact></Contact> */}
+            <Contact></Contact>
             <Footer></Footer>
         </div>
     );

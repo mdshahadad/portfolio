@@ -17,16 +17,17 @@ const Projects = () => {
             <div className="relative">
                 <ProjectsTitle></ProjectsTitle>
             </div>
-            <h3 className="text-white font-medium text-2xl md:text-3xl text-center mt-28 md:mt-72 uppercase hover:opacity-100">Projects I made before</h3>
-            {
-                projects.map(project => <ProjectsCard project={project} key={project._id}></ProjectsCard>)
-            }
+            <h3 className="text-white font-medium text-xl md:text-3xl text-center mt-24 md:mt-72 uppercase hover:opacity-100">Projects I made before</h3>
+            <div className="-mt-44">
+                {
+                    projects.map(project => <ProjectsCard project={project} key={project._id}></ProjectsCard>)
+                }
+            </div>
 
             <div className="flex justify-center">
                 <Link to="/projects">
                     <button
-                        className="text-black bg-white opacity-75 uppercase mt-[100px] px-14 py-7 rounded-2xl font-medium hover:bg-transparent hover:text-white hover:scale-110  hover:outline-dotted
-                flex items-center text-xl transition duration-300 ease-in-out">
+                        className="text-black bg-white opacity-75 uppercase mt-[240px] px-14 py-7 rounded-2xl font-medium hover:bg-transparent hover:text-white hover:scale-110  hover:outline-dotted flex items-center text-xl transition duration-300 ease-in-out">
                         Show More
                         <HiMiniArrowRightCircle className="text-4xl ml-2" />
                     </button>

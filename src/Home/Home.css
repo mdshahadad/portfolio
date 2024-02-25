@@ -2,11 +2,11 @@
 
 .projects-card:nth-child(odd) .left {
     width: 580px;
-    right: 288px;
+    /* right: 288px; */
 }
 .projects-card:nth-child(odd) .right {
     width: 380px;
-    left: 80px;
+    /* left: 80px; */
 }
 
 
@@ -226,6 +226,15 @@
         display: flex;
         justify-content: left;
         align-items: center;
+    }
+
+    .projects-card:nth-child(odd) .left {
+        width: auto;
+        left: 0px;
+    }
+    .projects-card:nth-child(odd) .right {
+        width: auto;
+        left: -1px;
     }
 
     /* @keyframes scroll {
