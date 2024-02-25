@@ -8,12 +8,12 @@ const ProjectsCard = ({ project }) => {
         <div className="md:mt-72 mt-60 md:w-full md:h-[200px] max-w-7xl mx-auto">
             <div className="">
                 <div
-                    // data-aos="fade-right"
-                    // data-aos-easing="linear"
-                    // data-aos-duration="1200"
-                    className="projects-card relative md:w-full md:flex flex-col md:items-center md:justify-center mx-4 md:mx-0">
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="1200"
+                    className="projects-card relative md:w-full md:flex flex-col md:items-center md:justify-center mx-2 md:mx-0">
 
-                    <div className="right bg-white opacity-80 px-2 md:px-5 py-10 z-10 rounded-xl hover:z-30 hover:opacity-100 hover:scale-125 transition ease-linear duration-500 md:mr-[450px] mx-10 md:mx-0">
+                    <div className="right bg-white opacity-80 px-4 md:px-5 py-10 z-10 rounded-xl hover:z-30 hover:opacity-100 hover:scale-125 transition ease-linear duration-500 md:mr-[450px] mx-10 md:mx-0">
                         <div className="flex justify-start">
                             <Link to={liveLink}>                        <IoOpenOutline className="text-5xl ml-2 cursor-pointer hover:scale-125 transition-all" />
                             </Link>
@@ -22,7 +22,7 @@ const ProjectsCard = ({ project }) => {
                         </div>
                         <div className="mt-4 md:pr-6 pb-8 md:pb-0">
                             <h3 className="text-center font-bold text-lg md:text-2xl">{title}</h3>
-                            <p className="px-5 mt-4 text-sm text-center">{details}</p>
+                            <p className="md:px-5 mt-4 text-sm text-center">{details}</p>
 
                             {/* <div className="flex justify-evenly mt-4 text-sm">
                                 <p className="bg-black text-white px-2 rounded-md py-1">React js</p>
