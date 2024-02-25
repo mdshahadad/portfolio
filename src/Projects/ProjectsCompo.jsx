@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import Footer from "../Home/Footer.jsx/Footer";
-import Navbar from "../Home/Navbar/Navbar";
 import ProjectsCard from "../Home/Projects/ProjectsCard";
 import ProjectsTitle from "../Home/Projects/ProjectsTitle";
 import SocialIcons from "../Home/SocialIcons/SocialIcons";
@@ -10,13 +9,12 @@ const ProjectsCompo = () => {
     const [projects, setProjects] = useState([]);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/projects`)
+        fetch(`https://shahadad.vercel.app/projects`)
             .then(res => res.json())
             .then(data => setProjects(data))
     }, [])
     return (
-        <div className="bg-black">
-            <Navbar></Navbar>
+        <div>
             <div className="relative mt-8">
                 <ProjectsTitle></ProjectsTitle>
             </div>

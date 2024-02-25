@@ -1,13 +1,11 @@
 import Footer from "../Home/Footer.jsx/Footer";
-import Navbar from "../Home/Navbar/Navbar";
 import Services from "../Home/Services/Services";
 import ServicesTitle from "../Home/Services/ServicesTitle";
 import SocialIcons from "../Home/SocialIcons/SocialIcons";
 
 const ServicesCompo = () => {
     return (
-        <div className="bg-black">
-            <Navbar></Navbar>
+        <div>
             <div className="bg-black mt-8">
                 <div className="relative">
                     <ServicesTitle></ServicesTitle>
