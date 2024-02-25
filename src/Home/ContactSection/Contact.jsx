@@ -3,7 +3,7 @@ import ContactTitle from "./ContactTitle";
 
 const Contact = () => {
     return (
-        <div className="bg-black mt-12">
+        <div className="mt-12">
             <div className="relative">
                 <ContactTitle></ContactTitle>
             </div>
