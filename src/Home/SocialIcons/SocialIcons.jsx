@@ -16,8 +16,8 @@ const SocialIcons = () => {
                 <IoLogoGithub className="text-4xl md:text-5xl mt-4 hover:text-white"></IoLogoGithub>
             </Link>
             
-            <h4 className="rotate-90 mt-14 text-xl md:-translate-x-[32px] hover:text-white">Let's connect</h4>
-            <div className="w-[2px] rounded-full mt-14 block h-14 md:h-28 md:bg-[#bfbfbf] bg-[#bfbfbf] translate-x-[22px]"></div>
+            <h4 className="rotate-90 mt-14 text-xl -translate-x-[38px] md:-translate-x-[32px] hover:text-white">Let's connect</h4>
+            <div className="w-[2px] rounded-full mt-14 block h-14 md:h-28 md:bg-[#bfbfbf] bg-[#bfbfbf] translate-x-4 md:translate-x-[22px]"></div>
         </div>
     );
 };

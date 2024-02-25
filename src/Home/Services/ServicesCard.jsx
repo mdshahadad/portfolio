@@ -8,10 +8,10 @@ import { HiCodeBracketSquare } from "react-icons/hi2";
 const ServicesCard = ({ setOpenModal }) => {
     return (
         <div className="md:max-w-5xl md:mx-auto py-10">
-            <div className="text-white grid grid-cols-1 md:grid-cols-2 md:gap-10 mt-12">
+            <div className="text-white grid grid-cols-1 md:grid-cols-2 md:gap-10 mt-12 overflow-x-hidden md:overflow-x-visible">
                 <div className="md:flex justify-center px-5">
                     <div
-                        data-aos="fade-up"
+                        data-aos="fade-right"
                         data-aos-duration="1000"
                         data-aos-easing="ease-in"
                         className="">
@@ -44,7 +44,7 @@ const ServicesCard = ({ setOpenModal }) => {
 
                 <div className="md:flex justify-center px-5">
                     <div
-                        data-aos="fade-up"
+                        data-aos="fade-left"
                         // data-aos-offset="300"
                         data-aos-duration="1000"
                         data-aos-easing="ease-in"
