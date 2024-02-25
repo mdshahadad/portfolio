@@ -19,7 +19,7 @@ const Navbar = ({ showMenu, setShowMenu }) => {
 
                 <div className={`text-white opacity-75 text-center
                 md:mr-24 lg:mr-60`}>
-                    <ul className={`md:flex nav-list absolute md:relative top-[116px] md:top-0 bg-white text-black md:bg-transparent  z-50
+                    <ul onClick={() => setShowMenu(false)} className={`md:flex nav-list absolute md:relative top-[116px] md:top-0 bg-white text-black md:bg-transparent  z-50
                      md:text-white w-full
                     ${!showMenu ?
                             "hidden"
