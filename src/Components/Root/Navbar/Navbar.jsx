@@ -3,9 +3,11 @@ import { FaPaperPlane } from "react-icons/fa";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { RxCross2 } from "react-icons/rx";
 import '../../Home/Home.css'
+import { useState } from "react";
 // import { useState } from "react";
 
-const Navbar = ({ showMenu, setShowMenu }) => {
+const Navbar = () => {
+    const [openClose, setOpenClose] = useState(false)
 
     const navbarClasses = ({ isActive }) => isActive ? ' text-blue-400 font-bold flex items-center gap-2' : 'hover:text-white text-white transition-all duration-700 flex justify-between items-center gap-2 font-semibold text-black';
 
@@ -41,41 +43,21 @@ const Navbar = ({ showMenu, setShowMenu }) => {
                 <div className={`text-white opacity-75 text-center
                 md:mr-24 lg:mr-60`}>
 
-                    {/* <ul className='lg:flex justify-center gap-8 space-y-2'>
+                    <ul
+                        className={`md:flex nav-list md:relative top-[112px] md:top-0 bg-gray-800 transition-all md:bg-transparent z-50 md:text-white w-full ${!openClose ? "hidden" : " h-fit md:py-0 py-12 text-lg font-medium transition-all"} `}>
+
                         {
-                            navbar.map((nav, index) => (
+                            navbar.map((menu, index) => (
                                 <NavLink
-                                    onClick={() => setShowMenu(!showMenu)}
+                                    onClick={() => setOpenClose(!openClose)}
                                     className={navbarClasses}
-                                    title={nav?.title}
-                                    to={nav?.link}
+                                    title={menu?.title}
+                                    to={menu?.link}
                                     key={index}
                                     end
                                 >
-                                    {nav?.icon}
-                                    <h3 className={` text-sm md:text-lg origin-left whitespace-pre transition-transform duration-700`}
-                                    >{nav?.title}</h3>
-                                </NavLink>
-                            ))
-                        }
-                    </ul> */}
-
-                    <ul onClick={() => setShowMenu(false)}
-                        className={`md:flex nav-list md:relative top-[112px] md:top-0 bg-gray-800 transition-all md:bg-transparent z-50 md:text-white w-full ${!showMenu ? "hidden" : " h-fit md:py-0 py-12 text-lg font-medium transition-all"} `}>
-
-                        {
-                            navbar.map((nav, index) => (
-                                <NavLink
-                                    onClick={() => setShowMenu(!showMenu)}
-                                    className={navbarClasses}
-                                    title={nav?.title}
-                                    to={nav?.link}
-                                    key={index}
-                                    end
-                                >
-                                    {nav?.icon}
                                     <h3 className={`text-sm md:text-lg origin-left whitespace-pre transition-transform duration-700 mx-4`}
-                                    >{nav?.title}</h3>
+                                    >{menu?.title}</h3>
                                 </NavLink>
                             ))
                         }
@@ -93,10 +75,10 @@ const Navbar = ({ showMenu, setShowMenu }) => {
                 {/* ----------- Responsive Style ----------- */}
                 <div className="flex justify-between mx-3 md:mx-0">
                     <div className="text-white text-5xl md:hidden -ml-2">
-                        {!showMenu ?
-                            <HiMenuAlt2 onClick={() => setShowMenu(true)}></HiMenuAlt2>
+                        {!openClose ?
+                            <HiMenuAlt2 onClick={() => setOpenClose(!openClose)}></HiMenuAlt2>
                             :
-                            <RxCross2 onClick={() => setShowMenu(false)}></RxCross2>
+                            <RxCross2 onClick={() => setOpenClose(!openClose)}></RxCross2>
                         }
                     </div>
 

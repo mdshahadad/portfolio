@@ -1,15 +1,27 @@
 import { useState } from "react";
-import { Outlet } from "react-router-dom";
+// import Navbar from "../Navbar/Navbar";
 import Navbar from "../../Components/Navbar/Navbar";
+import { Outlet } from "react-router-dom";
 
 const Root = () => {
-    const [openClose, setOpenClose] = useState(false);
-
     return (
         <div className="bg-black h-screen">
-            {/* <Navbar showMenu={showMenu} setShowMenu={setShowMenu}></Navbar> */}
-            <Navbar setOpenClose={setOpenClose} openClose={openClose}></Navbar>
-            
+            {/* <Navbar></Navbar> */}
+            {/* <Navbar></Navbar> */}
+            <Navbar></Navbar>
+            {/* {
+                !showMenu &&
+                <Outlet></Outlet>
+            } */}
+
+            {/* <div className="z-30">
+                <Navbar showMenu={showMenu} setShowMenu={setShowMenu}></Navbar>
+            </div>
+            <Outlet></Outlet>
+            {
+                !showMenu &&
+                <Outlet></Outlet>
+            } */}
         </div>
     );
 };
