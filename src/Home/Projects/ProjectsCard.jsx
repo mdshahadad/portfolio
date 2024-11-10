@@ -33,7 +33,7 @@ const ProjectsCard = ({ project }) => {
                         </div>
                     </div>
 
-                    <div className="left bg-gray-400 p-2 z-20 rounded-xl cursor-crosshair absolute -mt-12 md:ml-[400px]">
+                    <div className="left bg-gray-400 p-2 z-20 rounded-xl cursor-crosshair absolute -mt-12 md:mt-0 md:ml-[400px]">
                         <img src={image} alt="" className="rounded-xl hover:scale-150 transition ease-in-out duration-700 hover:border-2 hover:border-white" />
                     </div>
                 </div>

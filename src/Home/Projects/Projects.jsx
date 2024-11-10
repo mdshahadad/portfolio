@@ -18,7 +18,7 @@ const Projects = () => {
                 <ProjectsTitle></ProjectsTitle>
             </div>
             <h3 className="text-white font-medium text-xl md:text-3xl text-center mt-24 md:mt-72 uppercase hover:opacity-100">Projects I made before</h3>
-            <div className="-mt-44">
+            <div className="-mt-44 md:-mt-0">
                 {
                     projects.map(project => <ProjectsCard project={project} key={project._id}></ProjectsCard>)
                 }

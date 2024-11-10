@@ -4,6 +4,7 @@
     width: 580px;
     /* right: 288px; */
 }
+
 .projects-card:nth-child(odd) .right {
     width: 380px;
     /* left: 80px; */
@@ -46,7 +47,7 @@
 }
 
 
-.text-stroke {
+/* .text-stroke {
     -webkit-text-stroke: 2px #949090;
     color: transparent;
     opacity: 0.4;
@@ -55,7 +56,7 @@
 .text-stroke:hover {
     -webkit-text-fill-color: #949090;
     -webkit-text-stroke: 0px;
-}
+} */
 
 .text-strokeTitle {
     -webkit-text-stroke: 2px #fff;
@@ -164,8 +165,17 @@
         font-size: 37px;
     }
 
+    .text-strokeTitle {
+        -webkit-text-fill-color: #949090;
+
+        /* -webkit-text-stroke: 0px; */
+        opacity: 0.4;
+    }
+
     .text-stroke {
         -webkit-text-fill-color: #949090;
+
+        -webkit-text-stroke: 0px;
         opacity: 0.4;
     }
 }
@@ -232,6 +242,7 @@
         width: auto;
         left: 0px;
     }
+
     .projects-card:nth-child(odd) .right {
         width: auto;
         left: -1px;
