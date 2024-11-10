@@ -65,30 +65,44 @@ const Navbar = () => {
                 </div>
 
 
-                <div>
-                    <ul className={`md:hidden block md:bg-transparent bg-white w-full md:pt-0 pt-5 transition-all duration-700 md:h-0 h-screen space-y-4 md:pl-0 pl-8
-                            ${openClose === true ? "left-0 top-0 absolute z-10" : "absolute -left-96 top-0 z-10"}`}>
+                <div className='md:hidden block'>
+                    <ul className={`md:bg-transparent bg-white w-full md:pt-0 pt-5 transition-all duration-700 md:h-0 h-screen space-y-4 md:pl-0 px-5
+                            ${openClose === true ? "left-0 top-0 absolute z-10" : "absolute -left-[450px] top-0 z-10"}`}>
 
-                        <div className='flex justify-end mr-4'>
-                            <button><RxCross2 onClick={() => setOpenClose(!openClose)} className='text-5xl md:hidden' /> </button>
+                        <div className='flex justify-between items-center'>
+                            <div>
+                                <Link to='/'>
+                                    <h2
+                                        className="text-gray-500 font-bold text-3xl md:text-4xl mb-4 md:mb-0 mt-1 md:mt-0 cursor-pointer">shahadad.</h2>
+                                </Link>
+                            </div>
+
+                            <div className=''>
+                                <button><RxCross2 onClick={() => setOpenClose(!openClose)} className='text-5xl md:hidden' /> </button>
+                            </div>
                         </div>
 
-                        {
-                            navbar.map((menu, index) => (
-                                <NavLink
-                                    onClick={() => setOpenClose(!openClose)}
-                                    className={navbarClasses}
-                                    title={menu?.title}
-                                    to={menu?.link}
-                                    key={index}
-                                    end
-                                >
-                                    <h3 className={`text-sm md:text-lg origin-left whitespace-pre transition-transform duration-700 mx-4
-                                    ${openClose === true ? "text-black text-lg" : ""}`}
-                                    >{menu?.title}</h3>
-                                </NavLink>
-                            ))
-                        }
+
+
+                        <div className='space-y-2'>
+                            {
+                                navbar.map((menu, index) => (
+                                    <NavLink
+                                        onClick={() => setOpenClose(!openClose)}
+                                        className={navbarClasses}
+                                        title={menu?.title}
+                                        to={menu?.link}
+                                        key={index}
+                                        end
+                                    >
+                                        <h3 className={`text-sm md:text-lg origin-left whitespace-pre transition-transform duration-700 mx-4
+                                    ${openClose === true ? "text-black text-xl" : ""}`}
+                                        >{menu?.title}</h3>
+                                    </NavLink>
+                                ))
+                            }
+                        </div>
+
                         <Link to="/contact">
                             <button
                                 className="bg-black md:border-0 text-white hover:opacity-100 px-6 py-2 md:px-8 md:py-3 rounded-lg font-medium flex items-center lg:text-xl text-lg hover:scale-110 hover:outline-dotted hover:bg-transparent hover:text-white transition-all mt-8 md:hidden"
@@ -100,10 +114,8 @@ const Navbar = () => {
                 {/* Contact Button */}
                 <div className="flex justify-between mx-3 md:mx-0">
                     <div className="text-white text-5xl md:hidden -ml-2">
-                        {!openClose ?
+                        {!openClose &&
                             <HiMenuAlt2 onClick={() => setOpenClose(!openClose)}></HiMenuAlt2>
-                            :
-                            <RxCross2 onClick={() => setOpenClose(!openClose)}></RxCross2>
                         }
                     </div>
 
