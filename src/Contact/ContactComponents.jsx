@@ -1,4 +1,3 @@
-import SocialIcons from "../Home/SocialIcons/SocialIcons";
 import Contact from "./Contact";
 import ContactTitle from "./ContactTitle";
 
@@ -9,7 +8,6 @@ const ContactComponents = () => {
                 <ContactTitle></ContactTitle>
             </div>
             <Contact></Contact>
-            <SocialIcons></SocialIcons>
         </div>
     );
 };

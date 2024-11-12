@@ -1,5 +1,4 @@
 import ProjectsTitle from "./ProjectsTitle";
-import SocialIcons from "../Home/SocialIcons/SocialIcons";
 import Projects from "./Projects";
 
 const ProjectsCompo = () => {
@@ -9,7 +8,6 @@ const ProjectsCompo = () => {
                 <ProjectsTitle></ProjectsTitle>
             </div>
             <Projects></Projects>
-            <SocialIcons></SocialIcons>
         </div>
     );
 };

@@ -9,11 +9,13 @@ import { GoFileDirectoryFill } from "react-icons/go";
 
 const Footer = () => {
     return (
-        <div className="w-full bg-white opacity-75 text-center py-20 mt-44 z-50">
+        <div className="w-full bg-white opacity-85 text-center py-20 mt-44 z-50">
             <div className="md:max-w-4xl md:mx-auto">
                 <div className="mb-8 md:mb-16">
-                    <h2 className="opacity-75 font-bold text-4xl md:text-7xl text-center mb-2 mt-1 md:mt-0 hover:opacity-100">shahadad.</h2>
-                    <p className="font-medium text-xs md:text-xl">A Junior Web Developer In Town</p>
+                    <h2 className="mb-2 mt-1 md:mt-0 flex justify-center">
+                        <img className="bg-white w-52 hover:scale-125 cursor-pointer duration-700" src="https://i.postimg.cc/HkDPVpx5/New-logo.png" alt="" />
+                    </h2>
+                    {/* <p className="font-medium text-xs md:text-xl">A Junior Web Developer In Town</p> */}
                 </div>
                 <div className="md:flex md:justify-between md:mt-5">
                     <div>

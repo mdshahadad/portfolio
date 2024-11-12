@@ -1,4 +1,4 @@
-import ContactIcons from "../Home/ContactSection/ContactIcons";
+import ContactIcons from "./ContactIcons";
 import ContactForm from "./ContactForm";
 
 const Contact = () => {
