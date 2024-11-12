@@ -12,10 +12,10 @@ const ServicesCard = ({ setOpenModal }) => {
                 <div className="md:flex justify-center px-5">
                     <div
                         data-aos="fade-right"
-                        data-aos-duration="1000"
+                        data-aos-duration="1500"
                         data-aos-easing="ease-in"
                         className="">
-                        <div className="mb-4 md:mb-10 bg-white hover:opacity-100 opacity-75 text-black md:px-16 px-8 py-12 rounded-xl md:w-[440px] hover:md:scale-110 hover:transition-all">
+                        <div className="mb-4 md:mb-10 bg-white hover:opacity-100 opacity-75 text-black md:px-16 px-8 py-12 rounded-xl md:w-[440px] hover:md:scale-110  transition-all duration-500">
                             <h3
                                 className="text-xl md:text-2xl font-medium">
                                 <TbDeviceImacCode
@@ -27,7 +27,7 @@ const ServicesCard = ({ setOpenModal }) => {
                                     className="flex items-center text-xl cursor-pointer px-4 py-2 rounded-full bg-black hover:bg-transparent hover:text-black font-medium border-2 border-black">View Details <IoIosArrowDroprightCircle className="text-3xl ml-2" /></h4>
                             </div>
                         </div>
-                        <div className="mb-10 bg-white hover:opacity-100 opacity-75 text-black md:px-16 px-8 py-12 rounded-xl md:w-[440px] hover:md:scale-110 hover:transition-all">
+                        <div className="mb-10 bg-white hover:opacity-100 opacity-75 text-black md:px-16 px-8 py-12 rounded-xl md:w-[440px] hover:md:scale-110  transition-all duration-500">
                             <h3
                                 className="text-xl md:text-2xl font-medium">
                                 <BsFileEarmarkCodeFill
@@ -46,10 +46,10 @@ const ServicesCard = ({ setOpenModal }) => {
                     <div
                         data-aos="fade-left"
                         // data-aos-offset="300"
-                        data-aos-duration="1000"
+                        data-aos-duration="1500"
                         data-aos-easing="ease-in"
                         className="">
-                        <div className="mb-2 lg:mb-10 bg-white opacity-75 text-black md:px-16 px-8 py-12 rounded-xl md:w-[440px] hover:opacity-100 hover:md:scale-110 hover:transition-all">
+                        <div className="mb-2 lg:mb-10 bg-white opacity-75 text-black md:px-16 px-8 py-12 rounded-xl md:w-[440px] hover:opacity-100 hover:md:scale-110 transition-all duration-500">
                             <h3
                                 className="text-xl md:text-2xl font-medium">
                                 <TbSettingsCode
@@ -61,7 +61,7 @@ const ServicesCard = ({ setOpenModal }) => {
                                     className="flex items-center text-xl cursor-pointer px-4 py-2 rounded-full bg-black hover:bg-transparent hover:text-black font-medium border-2 border-black">View Details <IoIosArrowDroprightCircle className="text-3xl ml-2" /></h4>
                             </div>
                         </div>
-                        <div className="mb-2 md:mb-10 bg-white hover:opacity-100 opacity-75 text-black md:px-16 px-8 py-12 rounded-xl md:w-[440px] hover:md:scale-110 hover:transition-all">
+                        <div className="mb-2 md:mb-10 bg-white hover:opacity-100 opacity-75 text-black md:px-16 px-8 py-12 rounded-xl md:w-[440px] hover:md:scale-110 transition-all duration-500">
                             <h3
                                 className="text-xl md:text-2xl font-medium">
                                 <HiCodeBracketSquare

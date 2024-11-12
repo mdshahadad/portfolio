@@ -1,7 +1,6 @@
 import { HiDocumentArrowDown } from "react-icons/hi2";
 
-const AboutMeText = () => {
-
+const AboutMe = () => {
     const handleDownload = () => {
 
         fetch("shahadad_resume.pdf")
@@ -26,13 +25,13 @@ const AboutMeText = () => {
     }
 
     return (
-        <div className="">
+        <div className="h-screen relative overflow-y-hidden">
             <div data-aos="fade-left"
                 data-aos-duration="1000"
                 // data-aos-delay="200"
                 data-aos-easing="linear"
-                className="z-20 md:hover:z-10 absolute top-20 md:top-28 right-0 md:right-60">
-                <img className="opacity-25 hover:opacity-100 transition duration-1000" src="https://i.postimg.cc/c4pMKW73/IMG-2118-1.png" alt="" />
+                className=" absolute top-20 md:top-28 right-0 md:right-60">
+                <img className="opacity-25 hover:opacity-100 transition duration-1000 z-10 hover:z-0" src="https://i.postimg.cc/c4pMKW73/IMG-2118-1.png" alt="" />
             </div>
             <div
                 data-aos="fade-right"
@@ -63,4 +62,4 @@ const AboutMeText = () => {
     );
 };
 
-export default AboutMeText;
+export default AboutMe;

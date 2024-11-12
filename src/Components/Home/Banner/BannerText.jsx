@@ -22,7 +22,7 @@ const BannerText = () => {
             <div
 
                 data-aos="fade-right"
-                data-aos-duration="3000"
+                data-aos-duration="1500"
                 data-aos-easing="linear"
                 data-aos-delay="1000"
                 className='absolute top-16 left-56 space-y-4'>

@@ -9,7 +9,8 @@ const ProjectsCard = ({ project }) => {
             <div
                 data-aos="fade-right"
                 data-aos-easing="linear"
-                data-aos-duration="1200"
+                data-aos-duration="1800"
+                data-aos-delay="500"
                 className="projects-card relative md:w-full md:flex flex-col md:items-center md:justify-center mx-2 md:mx-0">
 
                 <div className="right bg-white opacity-80 px-4 md:px-5 py-10 z-10 rounded-xl hover:z-30 hover:opacity-100 hover:scale-125 transition ease-linear duration-500 md:mr-[450px] mx-10 md:mx-0">

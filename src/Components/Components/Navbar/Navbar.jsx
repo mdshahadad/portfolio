@@ -1,5 +1,3 @@
-import React, { useState } from 'react';
-import { CgCloseO } from 'react-icons/cg';
 import { FaPaperPlane } from 'react-icons/fa';
 import { HiMenuAlt2 } from 'react-icons/hi';
 import { RxCross2 } from 'react-icons/rx';
@@ -31,7 +29,7 @@ const Navbar = ({ openClose, setOpenClose }) => {
 
     return (
         <nav className=''>
-            <div className='2xl:mx-36 xl:max-28 lg:mx-8 md:flex justify-between items-center pt-2'>
+            <div className='2xl:mx-36 xl:max-28 lg:mx-8 md:flex justify-between items-center pt-4'>
                 {/* Logo */}
                 <div>
                     <Link to='/'>
