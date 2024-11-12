@@ -24,10 +24,10 @@ const BannerText = () => {
                 data-aos="fade-right"
                 data-aos-duration="1500"
                 data-aos-easing="linear"
-                data-aos-delay="1000"
-                className='absolute top-16 left-56 space-y-4'>
+                data-aos-delay="500"
+                className='absolute top-[420px] left-56 space-y-5'>
                 <p
-                    className='text-white md:mt-[350px] mt-72 text-xl font-semibold text-center'>Building Strong, Reliable Foundations for Your Business</p>
+                    className='text-white text-xl font-semibold text-center'>Building Strong, Reliable Foundations for Your Business</p>
                 <div>
                     <Link to="/contact">
                         <button className='bg-white opacity-75 text-black font-semibold text-xl px-8 flex items-center py-4 rounded-lg hover:opacity-100 hover:bg-transparent hover:text-white hover:outline-dotted transition-all duration-200 hover:scale-105'>Let's Handshake
