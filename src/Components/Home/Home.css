@@ -141,9 +141,9 @@
     }
 }
 
-.bannerText {
+/* .bannerText {
     position: absolute;
-}
+} */
 
 
 /* My Expertise sections styles */
@@ -174,7 +174,6 @@
 
     .text-stroke {
         -webkit-text-fill-color: #949090;
-
         -webkit-text-stroke: 0px;
         opacity: 0.4;
     }

@@ -6,7 +6,7 @@ import SocialIcons from "../Home/SocialIcons/SocialIcons";
 const ServicesCompo = () => {
     return (
         <div>
-            <div className="bg-black mt-8">
+            <div className="bg-black mt-10">
                 <div className="relative">
                     <ServicesTitle></ServicesTitle>
                 </div>

@@ -5,8 +5,7 @@ import { HiMenuAlt2 } from 'react-icons/hi';
 import { RxCross2 } from 'react-icons/rx';
 import { Link, NavLink } from 'react-router-dom';
 
-const Navbar = () => {
-    const [openClose, setOpenClose] = useState(false)
+const Navbar = ({ openClose, setOpenClose }) => {
 
     const navbarClasses = ({ isActive }) => isActive ? ' text-white font-bold flex items-center gap-2' : 'hover:text-white text-white transition-all duration-500 flex justify-between items-center font-semibold text-black opacity-50';
 
@@ -31,7 +30,7 @@ const Navbar = () => {
 
 
     return (
-        <nav>
+        <nav className=''>
             <div className='2xl:mx-36 xl:max-28 lg:mx-8 md:flex justify-between items-center pt-2'>
                 {/* Logo */}
                 <div>
@@ -66,7 +65,7 @@ const Navbar = () => {
 
 
                 <div className='md:hidden block'>
-                    <ul className={`md:bg-transparent bg-white w-full md:pt-0 pt-5 transition-all duration-700 md:h-0 h-screen space-y-4 md:pl-0 px-5
+                    <ul className={`md:bg-transparent bg-white w-full md:pt-0 pt-5 transition-all duration-700 md:h-0 h-screen space-y-4 md:pl-0 px-5 fixed
                             ${openClose === true ? "left-0 top-0 absolute z-10" : "absolute -left-[450px] top-0 z-10"}`}>
 
                         <div className='flex justify-between items-center'>

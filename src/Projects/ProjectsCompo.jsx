@@ -15,7 +15,7 @@ const ProjectsCompo = () => {
             .then(data => setProjects(data))
     }, [])
     return (
-        <div>
+        <div className="">
             <div className="relative">
                 <ProjectsTitle></ProjectsTitle>
             </div>
