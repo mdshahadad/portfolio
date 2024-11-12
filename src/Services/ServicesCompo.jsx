@@ -14,7 +14,6 @@ const ServicesCompo = () => {
                 <Services></Services>
             </div>
             <SocialIcons></SocialIcons>
-            <Footer></Footer>
         </div>
     );
 };

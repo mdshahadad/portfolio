@@ -1,5 +1,6 @@
 import { FaHandsHelping } from 'react-icons/fa';
 import '../Home.css'
+import { Link } from 'react-router-dom';
 
 const BannerText = () => {
     return (
@@ -28,9 +29,11 @@ const BannerText = () => {
                 <p
                     className='text-white md:mt-[350px] mt-72 text-xl font-semibold text-center'>Building Strong, Reliable Foundations for Your Business</p>
                 <div>
-                    <button className='bg-white opacity-75 text-black font-semibold text-xl px-8 flex items-center py-4 rounded-lg hover:opacity-100 hover:bg-transparent hover:text-white hover:outline-dotted transition-all duration-200 hover:scale-105'>Let's Handshake
-                        <FaHandsHelping className='text-4xl ml-2' />
-                    </button>
+                    <Link to="/contact">
+                        <button className='bg-white opacity-75 text-black font-semibold text-xl px-8 flex items-center py-4 rounded-lg hover:opacity-100 hover:bg-transparent hover:text-white hover:outline-dotted transition-all duration-200 hover:scale-105'>Let's Handshake
+                            <FaHandsHelping className='text-4xl ml-2' />
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>

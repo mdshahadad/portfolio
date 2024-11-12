@@ -36,7 +36,6 @@ const ProjectsCompo = () => {
                 </Link>
             </div>
             <SocialIcons></SocialIcons>
-            <Footer></Footer>
         </div>
     );
 };

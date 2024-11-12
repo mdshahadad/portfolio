@@ -1,4 +1,4 @@
-import ContactForm from "./ContactForm";
+import ContactForm from "../../Contact/ContactForm";
 import ContactIcons from "./ContactIcons";
 
 const ContactDetails = () => {

@@ -9,7 +9,6 @@ const AboutCompo = () => {
                 <AboutMe></AboutMe>
             </div>
             <SocialIcons></SocialIcons>
-            <Footer></Footer>
         </div>
     );
 };

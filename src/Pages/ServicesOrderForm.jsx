@@ -1,4 +1,3 @@
-import Navbar from "../Home/Navbar/Navbar";
 import { useLocation } from "react-router-dom";
 import { FaTruckFast } from "react-icons/fa6";
 import toast, { Toaster } from "react-hot-toast";
@@ -47,7 +46,6 @@ const ServicesOrderForm = () => {
 
     return (
         <div className="bg-black h-screen">
-            <Navbar></Navbar>
             <div className="max-w-2xl mx-auto">
 
                 <h3 className="text-white opacity-65 font-medium text-3xl mt-16 text-center uppercase hover:opacity-100">Order Your service here</h3>

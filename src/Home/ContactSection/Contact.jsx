@@ -1,5 +1,5 @@
 import ContactDetails from "./ContactDetails";
-import ContactTitle from "./ContactTitle";
+import ContactTitle from "../../Contact/ContactTitle";
 
 const Contact = () => {
     return (

@@ -1,12 +1,14 @@
-import ContactForm from "../Home/ContactSection/ContactForm";
 import SocialIcons from "../Home/SocialIcons/SocialIcons";
+import Contact from "./Contact";
+import ContactTitle from "./ContactTitle";
 
 const ContactComponents = () => {
     return (
-        <div className="h-fit md:h-screen">
-            <div className="max-w-6xl mx-auto md:-mt-20">
-                <ContactForm></ContactForm>
+        <div>
+            <div className="lg:pb-64">
+                <ContactTitle></ContactTitle>
             </div>
+            <Contact></Contact>
             <SocialIcons></SocialIcons>
         </div>
     );

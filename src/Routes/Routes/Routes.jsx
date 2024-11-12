@@ -3,6 +3,9 @@ import Root from "../../Components/Root/Root/Root";
 import Home from '../../Components/Home/Home';
 import ProjectsCompo from "../../Projects/ProjectsCompo";
 import ServicesCompo from "../../Services/ServicesCompo";
+import AboutCompo from "../../AboutCompo/AboutCompo";
+import ServicesOrderForm from "../../Pages/ServicesOrderForm";
+import Contact from "../../Contact/Contact";
 
 const router = createBrowserRouter([
     {
@@ -13,10 +16,10 @@ const router = createBrowserRouter([
                 path: '/',
                 element: <Home></Home>
             },
-            // {
-            //     path: '/about',
-            //     element: <AboutCompo></AboutCompo>
-            // },
+            {
+                path: '/about',
+                element: <AboutCompo></AboutCompo>
+            },
             {
                 path: '/projects',
                 element: <ProjectsCompo></ProjectsCompo>
@@ -25,14 +28,14 @@ const router = createBrowserRouter([
                 path: '/services',
                 element: <ServicesCompo></ServicesCompo>
             },
-            // {
-            //     path: '/contact',
-            //     element: <ContactComponents></ContactComponents>
-            // },
-            // {
-            //     path: '/services/order',
-            //     element: <ServicesOrderForm></ServicesOrderForm>
-            // },
+            {
+                path: '/contact',
+                element: <Contact></Contact>
+            },
+            {
+                path: '/services/order',
+                element: <ServicesOrderForm></ServicesOrderForm>
+            },
             // {
             //     path: '/profile',
             //     element: <Profile></Profile>

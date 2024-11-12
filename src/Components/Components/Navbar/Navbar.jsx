@@ -47,7 +47,6 @@ const Navbar = ({ openClose, setOpenClose }) => {
                         {
                             navbar.map((menu, index) => (
                                 <NavLink
-                                    onClick={() => setOpenClose(!openClose)}
                                     className={navbarClasses}
                                     title={menu?.title}
                                     to={menu?.link}

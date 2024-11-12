@@ -12,6 +12,7 @@ const ContactIcons = () => {
             <div
                 data-aos="fade-up"
                 data-aos-duration="3000"
+                data-aos-delay="1000"
                 className="md:flex justify-between md:max-w-6xl md:mx-auto">
                 <div className="bg-white opacity-75 hover:opacity-100 hover:scale-105 transition-all px-8 py-5 rounded-xl md:w-64 cursor-pointer icon-card mb-5 md:mb-0">
 

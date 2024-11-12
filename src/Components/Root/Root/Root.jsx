@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Navbar from "../../Components/Navbar/Navbar";
 import { Outlet } from "react-router-dom";
+import Footer from "../../../Home/Footer.jsx/Footer";
 
 const Root = () => {
     const [openClose, setOpenClose] = useState(false)
@@ -11,6 +12,7 @@ const Root = () => {
                 !openClose &&
                 <Outlet></Outlet>
             }
+            <Footer></Footer>
         </div>
     );
 };
