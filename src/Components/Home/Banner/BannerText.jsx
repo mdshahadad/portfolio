@@ -1,13 +1,14 @@
+import { FaHandsHelping } from 'react-icons/fa';
 import '../Home.css'
 
 const BannerText = () => {
     return (
-        <div className="flex justify-center z-0 hover:z-10">
+        <div className="flex justify-center">
             <h1
                 data-aos="fade-down"
                 data-aos-duration="2000" data-aos-easing="linear"
                 data-aos-delay="100"
-                className='lg:font-extrabold lg:text-[180px] text-strokeTitle bannerText z-0 md:block hidden absolute top-36'>WEB DEVELOPER</h1>
+                className='lg:font-extrabold lg:text-[180px] text-strokeTitle bannerText z-0 hover:z-10 md:block hidden absolute top-36'>WEB DEVELOPER</h1>
 
             {/* <h1
                 data-aos="fade-down"
@@ -17,13 +18,20 @@ const BannerText = () => {
                 <p>WEB</p>
                 <p>DEVELOPER</p>
             </h1> */}
-            <div>
+            <div
+
+                data-aos="fade-right"
+                data-aos-duration="3000"
+                data-aos-easing="linear"
+                data-aos-delay="1000"
+                className='absolute top-16 left-56 space-y-4'>
                 <p
-                    data-aos="zoom-in"
-                    data-aos-duration="2000"
-                    data-aos-easing="linear"
-                    data-aos-delay="200"
-                    className='text-white md:mt-[350px] mt-72 text-3xl font-semibold text-center'>Building Strong, Reliable Foundations for Your Business</p>
+                    className='text-white md:mt-[350px] mt-72 text-xl font-semibold text-center'>Building Strong, Reliable Foundations for Your Business</p>
+                <div>
+                    <button className='bg-white opacity-75 text-black font-semibold text-xl px-8 flex items-center py-4 rounded-lg hover:opacity-100 hover:bg-transparent hover:text-white hover:outline-dotted transition-all duration-200 hover:scale-105'>Let's Handshake
+                        <FaHandsHelping className='text-4xl ml-2' />
+                    </button>
+                </div>
             </div>
         </div>
     );
