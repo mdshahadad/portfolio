@@ -1,11 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
 import Root from "../../Components/Root/Root/Root";
 import Home from '../../Components/Home/Home';
-import ProjectsCompo from "../../Projects/ProjectsCompo";
 import ServicesCompo from "../../Services/ServicesCompo";
 import AboutCompo from "../../AboutCompo/AboutCompo";
 import ServicesOrderForm from "../../Pages/ServicesOrderForm";
 import Contact from "../../Contact/Contact";
+import Projects from "../../Projects/Projects";
 
 const router = createBrowserRouter([
     {
@@ -22,7 +22,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/projects',
-                element: <ProjectsCompo></ProjectsCompo>
+                element: <Projects></Projects>
             },
             {
                 path: '/services',

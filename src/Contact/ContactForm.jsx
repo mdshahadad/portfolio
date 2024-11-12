@@ -40,7 +40,7 @@ const ContactForm = () => {
             data-aos="fade-up"
             data-aos-duration="3000"
             className="pb-20">
-            <h3 className="text-white opacity-75 font-medium text-3xl text-center mt-32 uppercase hover:opacity-100">need website for your business?</h3>
+            <h3 className="text-white opacity-75 font-medium text-3xl text-center mt-36 uppercase hover:opacity-100">need website for your business?</h3>
             <p className="text-white text-center font-medium mt-4 text-lg uppercase">Let me help you</p>
             <div className="text-white mt-14 px-2 md:px-0">
                 <form onSubmit={handleContactForm} action="">
