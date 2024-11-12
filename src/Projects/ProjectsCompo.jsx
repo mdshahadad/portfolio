@@ -4,7 +4,7 @@ import Projects from "./Projects";
 const ProjectsCompo = () => {
     return (
         <div className="">
-            <div className="lg:pb-56">
+            <div className="xl:pb-56 lg:pb-32">
                 <ProjectsTitle></ProjectsTitle>
             </div>
             <Projects></Projects>

@@ -8,12 +8,17 @@ import { HiCodeBracketSquare } from "react-icons/hi2";
 const ServicesCard = ({ setOpenModal }) => {
     return (
         <div className="md:max-w-5xl md:mx-auto py-10">
-            <div className="text-white grid grid-cols-1 md:grid-cols-2 md:gap-10 mt-12 overflow-x-hidden md:overflow-x-visible">
+            <div
+                data-aos="fade-up"
+                data-aos-duration="2000"
+                data-aos-delay="200"
+                data-aos-easing="ease-in"
+                className="text-white grid grid-cols-1 md:grid-cols-2 lg:gap-0 md:gap-10 mt-12 overflow-x-hidden md:overflow-x-visible">
                 <div className="md:flex justify-center px-5">
                     <div
-                        data-aos="fade-right"
-                        data-aos-duration="1500"
-                        data-aos-easing="ease-in"
+                        // data-aos="fade-up"
+                        // data-aos-duration="1500"
+                        // data-aos-easing="ease-in"
                         className="">
                         <div className="mb-4 md:mb-10 bg-white hover:opacity-100 opacity-75 text-black md:px-16 px-8 py-12 rounded-xl md:w-[440px] hover:md:scale-110  transition-all duration-500">
                             <h3
@@ -44,10 +49,10 @@ const ServicesCard = ({ setOpenModal }) => {
 
                 <div className="md:flex justify-center px-5">
                     <div
-                        data-aos="fade-left"
-                        // data-aos-offset="300"
-                        data-aos-duration="1500"
-                        data-aos-easing="ease-in"
+                        // data-aos="fade-up"
+                        // // data-aos-offset="300"
+                        // data-aos-duration="1500"
+                        // data-aos-easing="ease-in"
                         className="">
                         <div className="mb-2 lg:mb-10 bg-white opacity-75 text-black md:px-16 px-8 py-12 rounded-xl md:w-[440px] hover:opacity-100 hover:md:scale-110 transition-all duration-500">
                             <h3

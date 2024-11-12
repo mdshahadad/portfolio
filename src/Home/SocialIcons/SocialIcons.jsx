@@ -6,7 +6,7 @@ const SocialIcons = () => {
         <div data-aos="fade-up"
             data-aos-duration="2000"
             data-aos-delay="200"
-            className="fixed bottom-0 text-[#949090] md:text-[#bfbfbf] -right-14 md:-right-5 z-40"
+            className="fixed bottom-0 text-[#949090] md:text-[#bfbfbf] xl:-right-14 lg:-right-8 md:-right-5 z-40"
         >
 
             <Link to={`https://www.linkedin.com/in/shahadad/`}>

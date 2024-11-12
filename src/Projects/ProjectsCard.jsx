@@ -13,7 +13,7 @@ const ProjectsCard = ({ project }) => {
                 data-aos-delay="500"
                 className="projects-card relative md:w-full md:flex flex-col md:items-center md:justify-center mx-2 md:mx-0">
 
-                <div className="right bg-white opacity-80 px-4 md:px-5 py-10 z-10 rounded-xl hover:z-30 hover:opacity-100 hover:scale-125 transition ease-linear duration-500 md:mr-[450px] mx-10 md:mx-0">
+                <div className="right bg-white opacity-80 px-4 md:px-5 py-10 z-10 rounded-xl hover:z-30 hover:opacity-100 hover:scale-125 transition ease-linear duration-500 md:mr-[450px] mx-10 lg:mr-[530px] md:mx-0">
 
                     <div className="flex justify-start">
                         <Link to={liveLink}>
@@ -30,7 +30,7 @@ const ProjectsCard = ({ project }) => {
 
                 </div>
 
-                <div className="left bg-gray-400 p-2 z-20 rounded-xl cursor-crosshair absolute -mt-12 md:mt-0 md:ml-[400px]">
+                <div className="left bg-gray-400 p-2 z-20 rounded-xl cursor-crosshair absolute -mt-12 md:mt-0 lg:ml-[340px] md:ml-[400px]">
                     <img src={image} alt="" className="rounded-xl hover:scale-150 transition ease-in-out duration-700 hover:border-2 hover:border-white" />
                 </div>
             </div>

@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <section className="">
             <Banner></Banner>
-            <MouseScroll></MouseScroll>
+            {/* <MouseScroll></MouseScroll> */}
             <AboutCompo></AboutCompo>
             <ProjectsCompo></ProjectsCompo>
             <ServicesCompo></ServicesCompo>
