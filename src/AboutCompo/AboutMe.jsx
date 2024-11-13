@@ -39,7 +39,7 @@ const AboutMe = () => {
                 data-aos-duration="1800"
                 // data-aos-delay="200"
                 data-aos-easing="linear"
-                className="absolute 2xl:bottom-20 xl:bottom-12 lg:bottom-10 md:bottom-56 bottom-28 2xl:w-3/6 xl:w-3/6 lg:w-4/6 md:w-1/3 font-medium text-xl md:mx-0 mx-4 2xl:left-80 xl:left-60 lg:left-20 md:left-[350px] z-20">
+                className="absolute 2xl:bottom-48 xl:bottom-12 lg:bottom-10 md:bottom-56 bottom-28 2xl:w-2/6 xl:w-3/6 lg:w-4/6 md:w-1/3 font-medium text-xl md:mx-0 mx-4 2xl:left-96 xl:left-60 lg:left-20 md:left-[350px] z-20">
                 <div className="space-y-5 hover:text-white md:text-[#ffffff] text-white md:opacity-75">
                     <h3><strong className="text-2xl md:text-4xl">Assalamualaikum,</strong> Everyone.</h3>
                     <p className="md:leading-8 leading-6">I am Md Shahadad Hossain, based in Bangladesh. I am student of Computer Science and Engineering. I am proficient at front end web technologies. I have been working for years. I love building strong, reliable websites & love to doing work.</p>

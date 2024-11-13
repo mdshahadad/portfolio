@@ -10,9 +10,9 @@ const ContactIcons = () => {
     return (
         <div className="flex justify-center md:block">
             <div
-                // data-aos="fade-up"
-                // data-aos-duration="2500"
-                // data-aos-delay="500"
+                data-aos="fade-up"
+                data-aos-duration="2500"
+                data-aos-delay="500"
                 className="grid xl:grid-cols-4 lg:grid-cols-3 md:max-w-6xl md:mx-auto lg:gap-y-10">
                 <div className="flex justify-center">
                     <div className="bg-white opacity-75 hover:opacity-100 hover:scale-110 transition-all duration-700 px-8 py-5 rounded-xl md:w-64 cursor-pointer icon-card mb-5 md:mb-0 w-full">

@@ -37,7 +37,7 @@ const Projects = () => {
                 <p className="text-white text-center font-medium md:mt-4 mt-2 md:text-lg uppercase">Let me show you</p>
             </div>
 
-            <div className="md:-mt-0 mt-16">
+            <div className="md:mt-24 mt-16">
                 {
                     visibleProjects.map(project => <ProjectsCard project={project} key={project._id}></ProjectsCard>)
                 }
