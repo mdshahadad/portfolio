@@ -17,10 +17,10 @@ const ProjectsCard = ({ project }) => {
 
                     <div className="flex justify-start">
                         <Link to={liveLink}>
-                            <IoOpenOutline className="2xl:text-4xl xl:text-3xl lg:text-2xl ml-2 cursor-pointer hover:scale-125 transition-all" />
+                            <IoOpenOutline className="2xl:text-4xl xl:text-3xl lg:text-2xl text-xl ml-2 cursor-pointer hover:scale-125 transition-all" />
                         </Link>
                         <Link to={github}>
-                            <IoLogoGithub className="2xl:text-4xl xl:text-3xl lg:text-2xl ml-2 cursor-pointer hover:scale-125 transition-all" />
+                            <IoLogoGithub className="2xl:text-4xl xl:text-3xl lg:text-2xl text-xl ml-2 cursor-pointer hover:scale-125 transition-all" />
                         </Link>
                     </div>
                     <div className="mt-4 md:pr-6 pb-8 md:pb-0">

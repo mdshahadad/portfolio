@@ -18,8 +18,8 @@ const ServicesTitle = () => {
                 data-aos="fade-down"
                 data-aos-duration="2000" data-aos-easing="linear"
                 data-aos-delay="100"
-                style={{ fontSize: '58px' }}
-                className='text-strokeTitle bannerText z-0 flex flex-col items-center md:hidden absolute bottom-10 uppercase'>What i did?
+                style={{ fontSize: '50px' }}
+                className='text-strokeTitle bannerText z-0 flex flex-col items-center md:hidden absolute bottom-10 uppercase'>WHAT I OFFER?
             </h1>
         </div>
     );
