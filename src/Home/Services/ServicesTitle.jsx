@@ -12,7 +12,7 @@ const ServicesTitle = () => {
                 className="text-strokeTitle title-position absolute z-20 hover:z-30 md:-top-10 font-extrabold md:text-[110px] title-style"
             >WHAT I OFFER?</h1> */}
 
-            <h1 className="text-strokeTitle title-position absolute md:-top-11 font-extrabold md:text-[110px] lg:text-[128px] xl:text-[200px] z-0 hover:z-10">WHAT I OFFER?</h1>
+            <h1 className="text-strokeTitle title-position absolute md:-top-11 font-extrabold md:text-[110px] lg:text-[128px] xl:text-[160px] 2xl:text-[200px] z-0 hover:z-10">WHAT I OFFER?</h1>
         </div>
     );
 };

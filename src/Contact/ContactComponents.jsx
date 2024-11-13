@@ -4,7 +4,7 @@ import ContactTitle from "./ContactTitle";
 const ContactComponents = () => {
     return (
         <div>
-            <div className="xl:pb-68 lg:pb-48">
+            <div className="2xl:pb-72 xl:pb-60 lg:pb-48">
                 <ContactTitle></ContactTitle>
             </div>
             <Contact></Contact>

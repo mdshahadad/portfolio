@@ -40,7 +40,7 @@ const ContactForm = () => {
             data-aos="fade-up"
             data-aos-duration="3000"
             className="pb-20">
-            <h3 className="text-white opacity-75 font-medium text-3xl text-center mt-36 uppercase hover:opacity-100">need website for your business?</h3>
+            <h3 className="text-white opacity-75 font-medium text-3xl text-center mt-16 uppercase hover:opacity-100">need website for your business?</h3>
             <p className="text-white text-center font-medium mt-4 text-lg uppercase">Let me help you</p>
             <div className="text-white mt-14 px-2 md:px-0">
                 <form onSubmit={handleContactForm} action="">
@@ -85,7 +85,7 @@ const ContactForm = () => {
                             <div className="w-full">
 
                                 {/* Submit button */}
-                                <button className="uppercase flex justify-center px-12 bg-white opacity-75 py-5 text-black font-medium items-center rounded-xl text-xl hover:opacity-100 hover:scale-110 hover:bg-transparent hover:outline-dotted hover:text-white transition duration-300 ease-in-out mt-[52px] w-full">send message <FaPaperPlane className="ml-2 text-2xl" />
+                                <button className="uppercase flex justify-center px-12 bg-white opacity-75 py-5 text-black font-medium items-center rounded-xl text-xl hover:opacity-100 hover:scale-105 hover:bg-transparent hover:outline-dotted hover:text-white transition duration-700 ease-in-out mt-[52px] w-full">send message <FaPaperPlane className="ml-2 text-2xl" />
                                 </button>
                             </div>
                         </div>

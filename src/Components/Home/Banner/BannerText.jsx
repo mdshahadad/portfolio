@@ -9,7 +9,7 @@ const BannerText = () => {
                 data-aos="fade-down"
                 data-aos-duration="2000" data-aos-easing="linear"
                 data-aos-delay="100"
-                className='lg:font-extrabold xl:text-[180px] lg:text-[116px] xl:mx-0 lg:mx-4 text-strokeTitle bannerText z-0 hover:z-10 md:block hidden absolute top-36'>WEB DEVELOPER</h1>
+                className='lg:font-extrabold 2xl:text-[180px] xl:text-[140px] lg:text-[116px] xl:mx-0 lg:mx-4 text-strokeTitle bannerText z-0 hover:z-10 md:block hidden absolute top-36'>WEB DEVELOPER</h1>
 
             {/* <h1
                 data-aos="fade-down"
@@ -25,7 +25,7 @@ const BannerText = () => {
                 data-aos-duration="1500"
                 data-aos-easing="linear"
                 data-aos-delay="500"
-                className='absolute xl:top-[420px] lg:top-80 xl:left-56 lg:left-12 space-y-5 z-20'>
+                className='absolute 2xl:top-[420px] xl:top-[380px] lg:top-80 2xl:left-56 xl:left-36 lg:left-12 space-y-5 z-20'>
                 <p
                     className='text-white text-xl font-semibold text-start'>Building Strong, Reliable Foundations for <br className='xl:hidden' /> Your Business</p>
                 <div>
