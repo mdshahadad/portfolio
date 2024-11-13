@@ -118,8 +118,8 @@ const Navbar = ({ openClose, setOpenClose }) => {
                     <Link to="/contact">
                         <button
                             className="bg-white md:border-0 
-                            text-black opacity-75 hover:opacity-100 px-6 py-2 md:px-8 md:py-3 rounded-lg font-medium flex items-center lg:text-xl text-lg hover:scale-110 hover:outline-dotted hover:bg-transparent hover:text-white transition-all duration-200"
-                        >Hello <FaPaperPlane className="ml-2 lg:text-2xl text-xl"></FaPaperPlane></button>
+                            text-black opacity-75 hover:opacity-100 px-6 py-2 md:px-8 lg:py-4 md:py-3 rounded-lg font-medium flex items-center lg:text-xl text-lg hover:scale-110 hover:outline-dotted hover:bg-transparent hover:text-white transition-all duration-500"
+                        >Say Hello <FaPaperPlane className="ml-2 lg:text-2xl text-xl"></FaPaperPlane></button>
                     </Link>
                 </div>
             </div>

@@ -25,12 +25,12 @@ const BannerText = () => {
                 data-aos-duration="1500"
                 data-aos-easing="linear"
                 data-aos-delay="500"
-                className='absolute 2xl:top-[420px] xl:top-[380px] lg:top-80 2xl:left-56 xl:left-36 lg:left-12 space-y-5 z-20'>
+                className='absolute 2xl:top-[420px] xl:top-[380px] lg:top-[340px] 2xl:left-56 xl:left-36 lg:left-12 space-y-5 z-20'>
                 <p
                     className='text-white text-xl font-semibold text-start'>Building Strong, Reliable Foundations for <br className='xl:hidden' /> Your Business</p>
                 <div>
                     <Link to="/contact">
-                        <button className='bg-white opacity-75 text-black font-semibold text-xl px-8 flex items-center py-4 rounded-lg hover:opacity-100 hover:bg-transparent hover:text-white hover:outline-dotted transition-all duration-200 hover:scale-105'>Let's Handshake
+                        <button className='bg-white opacity-75 text-black font-semibold text-xl px-10 flex items-center py-5 rounded-lg hover:opacity-100 hover:bg-transparent hover:text-white hover:outline-dotted transition-all duration-500 hover:scale-105'>Let's Handshake
                             <FaHandsHelping className='text-4xl ml-2' />
                         </button>
                     </Link>
