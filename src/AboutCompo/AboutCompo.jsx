@@ -3,7 +3,7 @@ import AboutMeTitle from "./AboutMeTitle";
 
 const AboutCompo = () => {
     return (
-        <div className="mt-16">
+        <div className="md:mt-16 mt-0">
             <AboutMeTitle></AboutMeTitle>
             <AboutMe></AboutMe>
         </div>

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const ProjectsCard = ({ project }) => {
     const { details, github, image, liveLink, title } = project;
     return (
-        <div className="md:mb-48 mt-24 md:w-full md:h-[200px] max-w-7xl mx-auto relative">
+        <div className="md:mb-48 mb-52 md:w-full md:h-[200px] max-w-7xl mx-auto relative">
             <div
                 data-aos="fade-right"
                 data-aos-easing="linear"

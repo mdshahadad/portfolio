@@ -3,7 +3,7 @@ import BannerText from "./BannerText";
 
 const Banner = () => {
     return (
-        <div className="relative h-screen">
+        <div className="relative md:h-screen mb-64">
             <BannerImg></BannerImg>
             <BannerText></BannerText>
         </div>

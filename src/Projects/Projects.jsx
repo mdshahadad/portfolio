@@ -6,14 +6,14 @@ import { Link } from "react-router-dom";
 const Projects = () => {
     const [projects, setProjects] = useState([]);
     const [showMore, setShowMore] = useState(false);
-    console.log(projects)
+    // console.log(projects)
 
     useEffect(() => {
         fetch(`https://shahadad.vercel.app/projects`)
             .then(res => res.json())
             .then(data => {
                 data.reverse();
-                console.log(data)
+                // console.log(data)
                 setProjects(data)
             })
     }, []);
@@ -33,11 +33,11 @@ const Projects = () => {
                 data-aos="fade-up"
                 data-aos-duration="3000"
             >
-                <h3 className="text-white opacity-75 font-medium md:text-3xl text-xl text-center mt-16 uppercase hover:opacity-100">Projects I made before</h3>
-                <p className="text-white text-center font-medium mt-4 text-lg uppercase">Let me show you</p>
+                <h3 className="text-white opacity-75 font-medium md:text-3xl text-xl text-center md:mt-16 mt-10 uppercase hover:opacity-100">Projects I made before</h3>
+                <p className="text-white text-center font-medium md:mt-4 mt-2 md:text-lg uppercase">Let me show you</p>
             </div>
 
-            <div className="-mt-44 md:-mt-0">
+            <div className="md:-mt-0 mt-16">
                 {
                     visibleProjects.map(project => <ProjectsCard project={project} key={project._id}></ProjectsCard>)
                 }
