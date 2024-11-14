@@ -25,7 +25,10 @@ const ContactIcons = () => {
                             <p>in/shahadad/</p>
                             <div className="flex justify-center">
                                 <Link to='https://www.linkedin.com/in/shahadad/'>
-                                    <button className="flex items-center text-lg cursor-pointer px-8 py-2 rounded-full bg-black text-white mt-8 hover:bg-transparent border-2 border-black transition-all duration-700 hover:text-black" >Say Hello <FaPaperPlane className="ml-2 text-xl" /></button>
+                                    <a
+                                        href="https://www.linkedin.com/in/shahadad/"
+                                        target="_blank"
+                                        className="flex items-center text-lg cursor-pointer px-8 py-2 rounded-full bg-black text-white mt-8 hover:bg-transparent border-2 border-black transition-all duration-700 hover:text-black" >Say Hello <FaPaperPlane className="ml-2 text-xl" /></a>
                                 </Link>
                             </div>
                         </div>
@@ -42,7 +45,9 @@ const ContactIcons = () => {
                             <div className="flex justify-center">
                                 <Link
                                 >
-                                    <button className="flex items-center text-lg cursor-pointer px-8 py-2 rounded-full bg-black text-white mt-8 hover:bg-transparent border-2 border-black transition-all duration-700 hover:text-black" >Say Hello <FaPaperPlane className="ml-2 text-xl" /></button>
+                                    <a
+                                        href=""
+                                        className="flex items-center text-lg cursor-pointer px-8 py-2 rounded-full bg-black text-white mt-8 hover:bg-transparent border-2 border-black transition-all duration-700 hover:text-black" >Say Hello <FaPaperPlane className="ml-2 text-xl" /></a>
                                 </Link>
                             </div>
                         </div>
@@ -58,7 +63,9 @@ const ContactIcons = () => {
                             <p>mohammadshahadad</p>
                             <div className="flex justify-center">
                                 <Link to={`https://t.me/mohammadshahadad`}>
-                                    <button className="flex items-center text-lg cursor-pointer px-8 py-2 rounded-full bg-black text-white mt-8  hover:bg-transparent border-2 border-black transition-all duration-700 hover:text-black" >Say Hello <FaPaperPlane className="ml-2 text-xl" /></button>
+                                    <a
+                                        href=""
+                                        className="flex items-center text-lg cursor-pointer px-8 py-2 rounded-full bg-black text-white mt-8  hover:bg-transparent border-2 border-black transition-all duration-700 hover:text-black" >Say Hello <FaPaperPlane className="ml-2 text-xl" /></a>
                                 </Link>
                             </div>
                         </div>
@@ -73,9 +80,10 @@ const ContactIcons = () => {
                             <h4 className="text-center font-semibold text-lg">Email</h4>
                             <p>hello@shahadad.com</p>
                             <div className="flex justify-center">
-                                <Link>
-                                    <button className="flex items-center text-lg cursor-pointer px-8 py-2 rounded-full bg-black text-white mt-8 hover:bg-transparent border-2 border-black transition-all duration-700 hover:text-black" >Say Hello <FaPaperPlane className="ml-2 text-xl" /></button>
-                                </Link>
+                                <a
+                                    href="mailto:hello@shahadad.com"
+                                    target="_blank"
+                                    className="flex items-center text-lg cursor-pointer px-8 py-2 rounded-full bg-black text-white mt-8 hover:bg-transparent border-2 border-black transition-all duration-700 hover:text-black" >Say Hello <FaPaperPlane className="ml-2 text-xl" /></a>
                             </div>
                         </div>
                     </div>

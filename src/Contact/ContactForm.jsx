@@ -8,14 +8,16 @@ const ContactForm = () => {
         const form = e.target;
         const name = form.name.value;
         const email = form.email.value;
+        const number = form.number.value;
         const message = form.message.value;
 
         const clientDetails = {
             name,
             email,
+            number,
             message
         }
-        console.log(clientDetails);
+        // console.log(clientDetails);
 
         fetch('https://shahadad.vercel.app/inbox', {
             method: 'POST',
