@@ -42,7 +42,9 @@ const AboutMe = () => {
                 className="absolute 2xl:bottom-48 xl:bottom-12 lg:bottom-10 md:bottom-56 bottom-28 2xl:w-2/6 xl:w-3/6 lg:w-4/6 md:w-1/3 font-medium text-xl md:mx-0 mx-4 2xl:left-96 xl:left-60 lg:left-20 md:left-[350px] z-20">
                 <div className="space-y-5 hover:text-white md:text-[#ffffff] text-white md:opacity-75">
                     <h3><strong className="text-2xl md:text-4xl">Assalamualaikum,</strong> Everyone.</h3>
-                    <p className="md:leading-8 leading-6">I am Md Shahadad Hossain, based in Bangladesh. I am student of Computer Science and Engineering. I am proficient at front end web technologies. I have been working for years. I love building strong, reliable websites & love to doing work.</p>
+                    <p className="md:leading-8 leading-6">I'm Md Shahadad Hossain, a skilled front-end web developer and Computer Science student from Bangladesh. With years of experience, I specialize in creating reliable, visually appealing websites that deliver results. I'm passionate about innovation and committed to helping businesses enhance their digital presence with high-quality web solutions.
+
+</p>
                 </div>
 
                 <div className="md:mt-10 mt-4">

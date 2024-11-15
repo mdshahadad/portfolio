@@ -1,5 +1,6 @@
-import { FaPaperPlane } from 'react-icons/fa';
+import { FaPaperPlane, FaPenNib } from 'react-icons/fa';
 import { HiMenuAlt2 } from 'react-icons/hi';
+import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5';
 import { RxCross2 } from 'react-icons/rx';
 import { Link, NavLink } from 'react-router-dom';
 
@@ -12,11 +13,15 @@ const Navbar = ({ openClose, setOpenClose }) => {
             link: '/', title: "Home"
         },
         {
-            link: '/projects', title: "Projects"
-        },
-        {
             link: '/about', title: "About"
         },
+        {
+            link: '/skill', title: "Skill"
+        },
+        {
+            link: '/project', title: "Project"
+        },
+
         {
             link: '/service', title: "Service"
         },
@@ -31,7 +36,7 @@ const Navbar = ({ openClose, setOpenClose }) => {
         <nav className=''>
             <div className='2xl:mx-36 xl:max-28 lg:mx-8 md:flex justify-between items-center pt-4'>
                 {/* Logo */}
-                <div>
+                <div className='2xl:w-1/12'>
                     <Link to='/'>
                         <h2
                             className="text-white opacity-75 font-bold text-3xl md:text-4xl text-center mb-4 md:mb-0 mt-1 md:mt-0 cursor-pointer">shahadad.</h2>
@@ -39,7 +44,7 @@ const Navbar = ({ openClose, setOpenClose }) => {
                 </div>
                 {/* Navigation menu */}
 
-                <div>
+                <div className='2xl:w-1/4'>
                     <ul className={`md:flex hidden`}>
 
                         {
@@ -51,7 +56,7 @@ const Navbar = ({ openClose, setOpenClose }) => {
                                     key={index}
                                     end
                                 >
-                                    <h3 className={`text-sm md:text-lg origin-left whitespace-pre transition-transform duration-700 mx-4
+                                    <h3 className={`text-sm md:text-lg origin-left whitespace-pre transition-transform duration-700 xl:mx-4 mx-2
                                     ${openClose === true ? "text-black text-lg" : ""}`}
                                     >{menu?.title}</h3>
                                 </NavLink>
@@ -98,29 +103,36 @@ const Navbar = ({ openClose, setOpenClose }) => {
                                 ))
                             }
                         </div>
-
-                        <Link to="/contact">
-                            <button
-                                className="bg-black md:border-0 text-white hover:opacity-100 px-6 py-2 md:px-8 md:py-3 rounded-lg font-medium flex items-center lg:text-xl text-lg hover:scale-110 hover:outline-dotted hover:bg-transparent hover:text-white transition-all mt-8 md:hidden"
-                            >Hello <FaPaperPlane className="ml-2 lg:text-2xl text-xl"></FaPaperPlane></button>
-                        </Link>
                     </ul>
                 </div>
 
                 {/* Contact Button */}
-                <div className="flex justify-between mx-3 md:mx-0">
+                <div className="flex justify-between mx-3 md:mx-0 2xl:w-2/12">
                     <div className="text-white text-5xl md:hidden -ml-2">
                         {!openClose &&
                             <HiMenuAlt2 onClick={() => setOpenClose(!openClose)}></HiMenuAlt2>
                         }
                     </div>
 
-                    <Link to="/contact">
-                        <button
-                            className="bg-white md:border-0 
-                            text-black opacity-75 hover:opacity-100 px-6 py-2 md:px-8 lg:py-4 md:py-3 rounded-lg font-medium flex items-center lg:text-xl text-lg hover:scale-110 hover:outline-dotted hover:bg-transparent hover:text-white transition-all duration-500"
-                        >Say Hello <FaPaperPlane className="ml-2 lg:text-2xl text-xl"></FaPaperPlane></button>
-                    </Link>
+                    <div className='flex items-center justify-between md:w-full'>
+                        <div className='flex justify-around'>
+                            <Link
+                                to={`https://blog.shahadad.com/`}
+                                target='_blank'
+                                className="bg-white md:border-0 text-black opacity-75 hover:opacity-100 px-6 py-2 md:px-8 lg:py-4 md:py-3 rounded-lg font-medium flex items-center lg:text-xl text-lg hover:scale-110 hover:outline-dotted hover:bg-transparent hover:text-white transition-all duration-500 xl:mr-4 mr-2"
+                            >Blog <FaPenNib
+                                className="ml-2 lg:text-2xl text-xl"
+                            ></FaPenNib> </Link>
+
+                            <Link to="/contact">
+                                <button
+                                    className="bg-white md:border-0 text-black opacity-75 hover:opacity-100 px-6 py-2 md:px-8 lg:py-4 md:py-3 rounded-lg font-medium flex items-center lg:text-xl text-lg hover:scale-110 hover:outline-dotted hover:bg-transparent hover:text-white transition-all duration-500"
+                                >Hello <FaPaperPlane
+                                    className="ml-2 lg:text-2xl text-xl"
+                                ></FaPaperPlane></button>
+                            </Link>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
